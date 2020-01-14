@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: calibre\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/calibre\n"
 "POT-Creation-Date: 2020-01-03 07:10+IST\n"
-"PO-Revision-Date: 2020-01-14 18:13+0700\n"
+"PO-Revision-Date: 2020-01-14 18:50+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/calibre/calibre/language/id/)\n"
 "MIME-Version: 1.0\n"
@@ -898,19 +898,16 @@ msgid "ADDING FROM DIRECTORIES"
 msgstr "MENAMBAHKAN DARI DIREKTORI"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add.py:303
-#, fuzzy
 msgid "Options to control the adding of books from directories. By default only files that have extensions of known e-book file types are added."
-msgstr "Pilihan untuk mengontrol penambahan buku dari direktori. Secara default hanya file yang memiliki ekstensi yang dikenal jenis file e-book yang ditambahkan."
+msgstr "Pilihan untuk mengontrol penambahan buku dari direktori. Secara baku hanya berkas-berkas yang memiliki ekstensi berupa tipe berkas e-book yang dikenal yang ditambahkan."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add.py:320
-#, fuzzy
 msgid "Assume that each directory has only a single logical book and that all files in it are different e-book formats of that book"
-msgstr "Asumsikan bahwa setiap direktori hanya memiliki satu buku logis dan bahwa semua file di dalamnya adalah format e-book yang berbeda dari buku itu"
+msgstr "Mengasumsikan bahwa setiap direktori hanya memiliki satu buku logis dan bahwa semua berkas di dalamnya adalah format e-book yang berbeda dari buku itu"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add.py:328
-#, fuzzy
 msgid "Process directories recursively"
-msgstr "Direktori yang diindeks secara rekursif"
+msgstr "Memroses direktori secara rekursif"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add.py:341
 msgid "GLOB PATTERN"
@@ -927,9 +924,8 @@ msgid "A filename (glob) pattern, files matching this pattern will be added when
 msgstr "Sebuah nama file (glob) pola, file yang sesuai dengan pola ini akan ditambahkan ketika memindai direktori untuk file, bahkan jika mereka bukan dari jenis file e-book yang dikenal. Dapat ditentukan beberapa kali untuk beberapa pola."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add.py:379
-#, fuzzy
 msgid "You must specify at least one file to add"
-msgstr "Anda harus menyebutkan sedikitnya satu field untuk pencocokan"
+msgstr "Anda harus menyebutkan sedikitnya satu berkas untuk ditambahkan"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add_custom_column.py:25
 #, python-brace-format
@@ -947,9 +943,8 @@ msgstr ""
 "tipedata adalah salah satu dari: {0}\n"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add_custom_column.py:40
-#, fuzzy
 msgid "This column stores tag like data (i.e. multiple comma separated values). Only applies if datatype is text."
-msgstr "Kolom ini menyimpan Tag seperti data (yaitu beberapa nilai yang dipisahkan koma). Hanya berlaku jika DataType adalah teks."
+msgstr "Kolom ini menyimpan tag seperti data (yaitu beberapa nilai yang dipisahkan koma). Hanya berlaku jika tipedata adalah teks."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add_custom_column.py:49
 #, fuzzy
@@ -975,9 +970,8 @@ msgstr ""
 "Cara terbaik untuk menemukan kombinasi hukum adalah untuk membuat kolom kustom dari jenis yang sesuai di GUI kemudian melihat OPF cadangan untuk sebuah buku (memastikan bahwa OPF baru telah dibuat sejak kolom ditambahkan). Anda akan melihat JSON untuk \"display\" untuk kolom baru di OPF."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add_custom_column.py:82
-#, fuzzy
 msgid "You must specify label, name and datatype"
-msgstr "Anda harus menyebutkan nama dari header pengguna untuk dicocokkan"
+msgstr "Anda harus menyatakan label, nama, dan tipedata"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add_format.py:29
 msgid ""
@@ -990,23 +984,21 @@ msgstr ""
 "Tambahkan e-book di berkas_ebook ke format yang tersedia untuk buku logis yang diidentifikasi dengan id. Anda bisa mendapatkan id dengan menggunakan perintah pencarian. Jika format sudah ada, itu akan diganti, kecuali jika opsi jangan mengganti dinyatakan."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add_format.py:43
-#, fuzzy
 msgid "Do not replace the format if it already exists"
-msgstr "Jangan mengganti format jika sudah ada"
+msgstr "Jangan menimpa format jika sudah ada"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add_format.py:50
-#, fuzzy
 msgid "You must specify an id and an e-book file"
-msgstr "Anda harus menentukan id dan file e-book"
+msgstr "Anda harus menyatakan sebuah id dan suatu berkas e-book"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add_format.py:54
 msgid "e-book file must have an extension"
 msgstr "berkas e-book mesti memiliki suatu ekstensi"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add_format.py:57
-#, fuzzy, python-format
+#, python-format
 msgid "A %(fmt)s file already exists for book: %(id)d, not replacing"
-msgstr "A% (fmt) s file sudah ada untuk buku:% (id) d, tidak menggantikan"
+msgstr "Sebuah berkas %(fmt)s sudah ada untuk buku: %(id)d, tidak menggantikan"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_backup_metadata.py:21
 #, fuzzy
@@ -1030,9 +1022,8 @@ msgstr ""
 "secara otomatis, setiap metadata waktu berubah."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_backup_metadata.py:38
-#, fuzzy
 msgid "Normally, this command only operates on books that have out of date OPF files. This option makes it operate on all books."
-msgstr "Biasanya, perintah ini hanya beroperasi pada buku yang telah kedaluwarsa OPF file. Opsi ini membuatnya beroperasi pada semua buku."
+msgstr "Biasanya, perintah ini hanya beroperasi pada buku yang memiliki berkas OPF kedaluwarsa. Opsi ini membuatnya beroperasi pada semua buku."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_catalog.py:28
 msgid "{} OPTIONS"
@@ -1074,18 +1065,16 @@ msgstr ""
 "Default: tidak ada penyaringan"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_catalog.py:89 /home/kovid/work/calibre/src/calibre/web/fetch/simple.py:618
-#, fuzzy
 msgid "Show detailed output information. Useful for debugging"
-msgstr "Tampilkan informasi output rinci. Berguna untuk debugging"
+msgstr "Tampilkan informasi luaran rinci. Berguna untuk pengawakutuan"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_catalog.py:108
 msgid "You must specify a catalog output file"
 msgstr "Anda harus menyatakan sebuah berkas keluaran katalog"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_catalog.py:114
-#, fuzzy
 msgid "Cannot generate a catalog in the {} format"
-msgstr "Membuat katalog buku yang ada dalam pustaka calibre Anda"
+msgstr "Tidak dapat membuat katalog dalam format {}"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_check_library.py:26
 #, fuzzy, python-brace-format
@@ -1099,36 +1088,32 @@ msgstr ""
 "Lakukan beberapa pemeriksaan pada filesystem yang mewakili Perpustakaan. Laporan {0}"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_check_library.py:35 /home/kovid/work/calibre/src/calibre/db/cli/cmd_list_categories.py:46
-#, fuzzy
 msgid "Output in CSV"
-msgstr "OUTPUT"
+msgstr "Luaran dalam CSV"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_check_library.py:43
-#, fuzzy
 msgid ""
 "Comma-separated list of reports.\n"
 "Default: all"
 msgstr ""
 "Daftar laporan yang dipisahkan koma.\n"
-"Default: Semua"
+"Baku: semua"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_check_library.py:52
-#, fuzzy
 msgid ""
 "Comma-separated list of extensions to ignore.\n"
 "Default: all"
 msgstr ""
-"Daftar ekstensi yang dipisahkan koma untuk diabaikan.\n"
-"Default: Semua"
+"Daftar ekstensi untuk diabaikan yang dipisah koma.\n"
+"Baku: semua"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_check_library.py:61
-#, fuzzy
 msgid ""
 "Comma-separated list of names to ignore.\n"
 "Default: all"
 msgstr ""
-"Daftar nama yang dipisahkan koma untuk diabaikan.\n"
-"Default: Semua"
+"Daftar nama untuk diabaikan yang dipisah koma.\n"
+"Baku: semua"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_check_library.py:98
 #, fuzzy
@@ -1161,19 +1146,17 @@ msgstr ""
 "Semua buku, maka cukup menggunakan alat filesystem Anda untuk menyalin folder Perpustakaan."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_clone.py:39
-#, fuzzy
 msgid "Error: You must specify the path to the cloned library"
-msgstr "Galat: Anda harus menentukan lintasan ke Perpustakaan kloning"
+msgstr "Galat: Anda harus menyatakan path ke pustaka yang diklon"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_clone.py:47
-#, fuzzy
 msgid "The location for the new library is the same as the current library"
-msgstr "Lokasi untuk perpustakaan baru sama dengan perpustakaan saat ini"
+msgstr "Lokasi untuk pustaka baru sama dengan pustaka saat ini"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_clone.py:53
-#, fuzzy, python-format
+#, python-format
 msgid "%s is not empty. You must choose an empty directory for the new library."
-msgstr "%s tidak kosong. Anda harus memilih direktori kosong untuk perpustakaan baru."
+msgstr "%s tidak kosong. Anda harus memilih sebuah direktori kosong untuk pustaka baru."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_custom_columns.py:23
 #, fuzzy
@@ -1221,14 +1204,13 @@ msgid "Only update metadata in files of the specified format. Specify it multipl
 msgstr "Hanya Perbarui metadata dalam file format yang ditentukan. Tentukan beberapa kali untuk beberapa format. Secara default, semua format diperbarui."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_embed_metadata.py:56
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Processed {0} ({1} of {2})"
-msgstr "Terproses trek {0} dari {1}"
+msgstr "Terproses {0} ({1} dari {2})"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_embed_metadata.py:60
-#, fuzzy
 msgid "No book with id: {}"
-msgstr "Buku tidak ada"
+msgstr "Tidak ada buku dengan id: {}"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_export.py:44
 #, fuzzy
@@ -1246,34 +1228,29 @@ msgstr ""
 "file OPF). Anda bisa mendapatkan nomor ID dari perintah pencarian."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_export.py:57
-#, fuzzy
 msgid "Export all books in database, ignoring the list of ids."
-msgstr "Ekspor semua buku dalam database, mengabaikan daftar id."
+msgstr "Ekspor semua buku dalam basis data, mengabaikan daftar id."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_export.py:63
-#, fuzzy
 msgid "Export books to the specified directory. Default is"
-msgstr "Ekspor buku ke direktori yang ditentukan. Default adalah"
+msgstr "Ekspor buku ke direktori yang ditentukan. Baku adalah"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_export.py:70
-#, fuzzy
 msgid "Export all books into a single directory"
 msgstr "Ekspor semua buku ke dalam satu direktori"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_export.py:76
-#, fuzzy
 msgid "Report progress"
-msgstr "Tengah Berlangsung"
+msgstr "Laporkan kemajuan"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_export.py:87
-#, fuzzy
 msgid "Specifying this switch will turn this behavior off."
-msgstr "Matikan saklar mode Pesawat Terbang untuk memfungsikan Bluetooth."
+msgstr "Menentukan saklar ini akan menonaktifkan perilaku ini."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_export.py:137
-#, fuzzy, python-format
+#, python-format
 msgid "You must specify some ids or the %s option"
-msgstr "Anda harus menentukan beberapa id atau opsi %s"
+msgstr "Anda harus menyatakan beberapa id atau opsi %s"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_list.py:227
 #, fuzzy
@@ -1309,9 +1286,8 @@ msgstr ""
 "Default: {1}"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_list.py:259
-#, fuzzy
 msgid "Sort results in ascending order"
-msgstr "Urutkan foto dengan urut naik"
+msgstr "Urutkan hasil dalam urutan menaik"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_list.py:266
 #, fuzzy
@@ -1388,14 +1364,12 @@ msgstr ""
 "Hapus buku yang diidentifikasi dengan ID dari database. id harus koma dipisahkan daftar nomor ID (Anda bisa mendapatkan nomor id dengan menggunakan perintah pencarian). Misalnya, 23, 34, 57-85 (saat menentukan rentang, nomor terakhir dalam kisaran tidak disertakan)."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_remove.py:39
-#, fuzzy
 msgid "Do not use the recycle bin"
-msgstr "Jangan pakai tab"
+msgstr "Jangan gunakan tong sampah"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_remove.py:46
-#, fuzzy
 msgid "You must specify at least one book to remove"
-msgstr "Anda harus menyebutkan sedikitnya satu field untuk pencocokan"
+msgstr "Anda harus menyebutkan sedikitnya satu buku yang akan dihapus"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_remove_custom_column.py:24
 #, fuzzy
@@ -1412,9 +1386,8 @@ msgstr ""
 "kolom dengan perintah custom_columns."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_remove_custom_column.py:37
-#, fuzzy
 msgid "Do not ask for confirmation"
-msgstr "Jangan tanya untuk konfirmasi"
+msgstr "Jangan tanyakan konfirmasi"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_remove_custom_column.py:52
 #, fuzzy, python-format
@@ -1422,7 +1395,6 @@ msgid "You will lose all data in the column: %s. Are you sure (y/n)? "
 msgstr "Anda akan kehilangan semua data di kolom: %s. Apakah Anda yakin (y/n)?"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_remove_custom_column.py:55
-#, fuzzy
 msgid "y"
 msgstr "y"
 
@@ -1535,14 +1507,12 @@ msgid "Error: You must specify a name and a search string"
 msgstr "Kesalahan: Anda harus menentukan nama dan string pencarian"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_saved_searches.py:68 /home/kovid/work/calibre/src/calibre/gui2/add_filters.py:132
-#, fuzzy
 msgid "added"
-msgstr "Ditambahkan"
+msgstr "ditambahkan"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_saved_searches.py:71
-#, fuzzy
 msgid "Error: You must specify a name"
-msgstr "Anda harus menyatakan suatu nama berkas"
+msgstr "Galat: Anda harus menyatakan suatu nama"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_saved_searches.py:73
 msgid "removed"
@@ -1588,24 +1558,20 @@ msgid "No books matching the search expression:"
 msgstr "Tidak ada buku yang cocok dengan ekspresi pencarian:"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_set_custom.py:20
-#, fuzzy
 msgid "No book with id {} exists"
-msgstr "ID kontak sudah ada"
+msgstr "Tidak ada buku dengan id {}"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_set_custom.py:24
-#, fuzzy
 msgid "No column with name {} exists"
-msgstr "Sudah ada berkas dengan nama yang sama"
+msgstr "Tidak ada kolom dengan nama {}"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_set_custom.py:30
-#, fuzzy
 msgid "Data set to: {} [{}]"
-msgstr "Ikat suatu set data"
+msgstr "Data disetel ke: {} [{}]"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_set_custom.py:38
-#, fuzzy
 msgid "Data set to: {}"
-msgstr "Tak ada data yang ditata"
+msgstr "Data disetel ke: {}"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_set_custom.py:47
 #, fuzzy
@@ -1668,7 +1634,6 @@ msgid "List the metadata field names that can be used with the --field option"
 msgstr "Cantumkan nama bidang metadata yang dapat digunakan dengan opsi--Field"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_set_metadata.py:123
-#, fuzzy
 msgid "Field name"
 msgstr "Nama ruas"
 
@@ -1683,9 +1648,8 @@ msgid "You must specify a record id as the first argument"
 msgstr "Anda harus menentukan id rekaman sebagai argumen pertama"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_set_metadata.py:141
-#, fuzzy
 msgid "You must specify either a field or an opf file"
-msgstr "Anda harus menentukan kolom atau berkas OPF"
+msgstr "Anda harus menyatkan sebuah ruas atau suatu berkas opf"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_set_metadata.py:147
 #, python-format
@@ -1693,9 +1657,9 @@ msgid "The OPF file %s does not exist"
 msgstr "Berkas OPF %s tidak ada"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_set_metadata.py:154 /home/kovid/work/calibre/src/calibre/db/cli/cmd_set_metadata.py:183
-#, fuzzy, python-format
+#, python-format
 msgid "No book with id: %s in the database"
-msgstr "Membuka buku alamat “%s”"
+msgstr "Tidak ada buku dengan id: %s dalam basis data"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_set_metadata.py:165
 #, python-format
@@ -1726,9 +1690,8 @@ msgid "You must specify an id"
 msgstr "Anda harus menyatakan suatu id"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/main.py:53
-#, fuzzy
 msgid "The {} command is not supported with remote (server based) libraries"
-msgstr "Perintah {} tidak didukung dengan pustaka jarak jauh (server based)"
+msgstr "Perintah {} tidak didukung dengan pustaka (berbasis server) jarak jauh"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/main.py:62
 msgid "GLOBAL OPTIONS"
@@ -1748,9 +1711,8 @@ msgid "show program's version number and exit"
 msgstr "tampilkan versi program dan keluar"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/main.py:91
-#, fuzzy
 msgid "Username for connecting to a calibre Content server"
-msgstr "Nama pengguna untuk menyambung ke server konten kaliber"
+msgstr "Nama pengguna untuk menyambung ke server Konten calibre"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/main.py:95
 #, fuzzy, python-brace-format
@@ -1906,9 +1868,8 @@ msgid "No such virtual library: {}"
 msgstr "Ubah pustaka Virtual"
 
 #: /home/kovid/work/calibre/src/calibre/db/search.py:512
-#, fuzzy
 msgid "Virtual library search is recursive: {}"
-msgstr "Di mana melaksanakan pencarian rekursif"
+msgstr "Pencarian pustaka virtual bersifat rekursif: {}"
 
 #: /home/kovid/work/calibre/src/calibre/db/search.py:543 /home/kovid/work/calibre/src/calibre/library/caches.py:679
 #, python-brace-format
@@ -1979,9 +1940,8 @@ msgid "Run the GUI with a debug console, logging to the specified path. For inte
 msgstr "Jalankan GUI dengan konsol debug, log ke jalan yang ditentukan . Untuk penggunaan internal saja , gunakan opsi -g untuk menjalankan GUI dalam mode debug"
 
 #: /home/kovid/work/calibre/src/calibre/debug.py:80
-#, fuzzy
 msgid "Run the E-book viewer in debug mode"
-msgstr "Jalankan penampil E-book dalam mode debug"
+msgstr "Jalankan penampil E-book dalam mode awakutu"
 
 #: /home/kovid/work/calibre/src/calibre/debug.py:82
 msgid "Output the paths necessary to setup the calibre environment"
@@ -2032,9 +1992,8 @@ msgid "Export all calibre data (books/settings/plugins). Normally, you will be a
 msgstr "Ekspor semua data kaliber (buku/pengaturan/plugin). Biasanya, Anda akan diminta untuk ekspor DIR dan perpustakaan untuk ekspor. Anda juga dapat menentukan mereka sebagai argumen baris perintah untuk melewatkan pertanyaan. Gunakan jalur absolut untuk ekspor direktori dan perpustakaan. Kata kunci khusus \"semua\" dapat digunakan untuk mengekspor semua perpustakaan."
 
 #: /home/kovid/work/calibre/src/calibre/debug.py:113
-#, fuzzy
 msgid "Import previously exported calibre data"
-msgstr "Mengimpor data kaliber yang diekspor sebelumnya"
+msgstr "Mengimpor data calibre yang sebelumnya diekspor"
 
 #: /home/kovid/work/calibre/src/calibre/debug.py:116 /home/kovid/work/calibre/src/calibre/gui2/main.py:61
 msgid "Cause a running calibre instance, if any, to be shutdown. Note that if there are running jobs, they will be silently aborted, so use with care."
@@ -2077,7 +2036,7 @@ msgstr "Plugin dengan nama %s tidak ditemukan"
 
 #: /home/kovid/work/calibre/src/calibre/devices/android/driver.py:22
 msgid "Communicate with Android phones."
-msgstr "Hubungkan dengan ponsel Android."
+msgstr "Berkomunikasi dengan ponsel Android."
 
 #: /home/kovid/work/calibre/src/calibre/devices/android/driver.py:217
 msgid "Comma separated list of directories to send e-books to on the device's <b>main memory</b>. The first one that exists will be used"
@@ -2093,45 +2052,39 @@ msgstr "Hubungkan dengan ponsel S60."
 
 #: /home/kovid/work/calibre/src/calibre/devices/android/driver.py:366
 msgid "Communicate with WebOS tablets."
-msgstr "Hubungkan dengan tablet WebOS."
+msgstr "Berkomunikasi dengan tablet WebOS."
 
 #: /home/kovid/work/calibre/src/calibre/devices/binatone/driver.py:19
-#, fuzzy
 msgid "Communicate with the Binatone Readme e-book reader."
-msgstr "Berkomunikasi dengan Binatone readme pembaca e-book."
+msgstr "Berkomunikasi dengan pembaca e-book Binatone Readme."
 
 #: /home/kovid/work/calibre/src/calibre/devices/blackberry/driver.py:15
 msgid "Communicate with the Blackberry smart phone."
-msgstr "Menghubungkan  ponsel pintar Blackberry."
+msgstr "Berkomunikasi ponsel pintar Blackberry."
 
 #: /home/kovid/work/calibre/src/calibre/devices/blackberry/driver.py:16 /home/kovid/work/calibre/src/calibre/devices/blackberry/driver.py:40 /home/kovid/work/calibre/src/calibre/devices/eb600/driver.py:377 /home/kovid/work/calibre/src/calibre/devices/nuut2/driver.py:20
 msgid "Kovid Goyal"
 msgstr "Kovid Goyal"
 
 #: /home/kovid/work/calibre/src/calibre/devices/blackberry/driver.py:39
-#, fuzzy
 msgid "Communicate with the Blackberry Playbook."
-msgstr "Menghubungkan  ponsel pintar Blackberry."
+msgstr "Berkomunikasi dengan Blackberry Playbook."
 
 #: /home/kovid/work/calibre/src/calibre/devices/boeye/driver.py:17
-#, fuzzy
 msgid "Communicate with BOEYE BEX Serial e-book readers."
-msgstr "Berkomunikasi dengan BOEYE BEX serial e-book pembaca."
+msgstr "Berkomunikasi dengan pembaca e-book seri BOEYE BEX."
 
 #: /home/kovid/work/calibre/src/calibre/devices/boeye/driver.py:39
-#, fuzzy
 msgid "Communicate with BOEYE BDX serial e-book readers."
-msgstr "Berkomunikasi dengan BOEYE BDX serial e-book pembaca."
+msgstr "Berkomunikasi dengan pembaca e-book seri BOEYE BDX."
 
 #: /home/kovid/work/calibre/src/calibre/devices/cybook/driver.py:26
-#, fuzzy
 msgid "Communicate with the Cybook Gen 3/Opus e-book reader."
-msgstr "Berkomunikasi dengan Cybook gen 3/Opus pembaca e-book."
+msgstr "Berkomunikasi dengan pembaca e-book Cybook Gen 3/Opus."
 
 #: /home/kovid/work/calibre/src/calibre/devices/cybook/driver.py:70
-#, fuzzy
 msgid "Communicate with the Cybook Orizon e-book reader."
-msgstr "Berkomunikasi dengan Cybook Orizon e-book Reader."
+msgstr "Berkomunikasi dengan pembaca e-book Cybook Orizon."
 
 #: /home/kovid/work/calibre/src/calibre/devices/cybook/driver.py:83 /home/kovid/work/calibre/src/calibre/devices/user_defined/driver.py:60
 msgid "Card A folder"
@@ -2142,19 +2095,16 @@ msgid "Enter the folder where the books are to be stored when sent to the memory
 msgstr "Masukkan folder di mana buku-buku yang akan disimpan ketika dikirim ke kartu memori . Folder ini prepended untuk setiap kirim ke template perangkat"
 
 #: /home/kovid/work/calibre/src/calibre/devices/cybook/driver.py:122
-#, fuzzy
 msgid "Communicate with the Cybook Muse e-book reader."
-msgstr "Berkomunikasi dengan Cybook Muse pembaca e-book."
+msgstr "Berkomunikasi dengan pembaca e-book Cybook Muse."
 
 #: /home/kovid/work/calibre/src/calibre/devices/cybook/driver.py:148
-#, fuzzy
 msgid "Communicate with the Bookeen Diva HD e-book reader."
-msgstr "Berkomunikasi dengan Bookeen Diva HD e-book Reader."
+msgstr "Berkomunikasi dengan pembaca e-book Bookeen Diva HD."
 
 #: /home/kovid/work/calibre/src/calibre/devices/eb600/driver.py:27
-#, fuzzy
 msgid "Communicate with the EB600 e-book reader."
-msgstr "Menghubungkan pembaca ebook The Book."
+msgstr "Berkomunikasi dengan pembaca e-book EB600."
 
 #: /home/kovid/work/calibre/src/calibre/devices/eb600/driver.py:59
 #, fuzzy
@@ -2172,37 +2122,35 @@ msgstr "Centang kotak ini jika memori utama perangkat dilihat sebagai kartu a da
 
 #: /home/kovid/work/calibre/src/calibre/devices/eb600/driver.py:284
 msgid "Communicate with the Astak Mentor EB600"
-msgstr "Menghubungkan Astak Mentor EB600"
+msgstr "Berkomunikasi dengan Astak Mentor EB600"
 
 #: /home/kovid/work/calibre/src/calibre/devices/eb600/driver.py:309
-#, fuzzy
 msgid "Communicate with the PocketBook 301 Reader."
-msgstr "Menghubungkan pembaca ebook PocketBook 360+."
+msgstr "Berkomunikasi dengan PocketBook 360+ Reader."
 
 #: /home/kovid/work/calibre/src/calibre/devices/eb600/driver.py:328
 msgid "Communicate with the PocketBook 515/602/603/902/903/Pro 912 reader."
-msgstr "Berkomunikasi dengan buku saku 515/602/603/902/903 / 912 Pro reader."
+msgstr "Berkomunikasi dengan pembaca PocketBook 515/602/603/902/903/Pro 912."
 
 #: /home/kovid/work/calibre/src/calibre/devices/eb600/driver.py:350
 msgid "Communicate with the PocketBook 622 and 623 readers."
-msgstr "Menghubungkan pembaca ebook PocketBook 622 dan 623."
+msgstr "Berkomunikasi dengan pembaca PocketBook 622 dan 623."
 
 #: /home/kovid/work/calibre/src/calibre/devices/eb600/driver.py:364
 msgid "Communicate with the PocketBook 360+ reader."
-msgstr "Menghubungkan pembaca ebook PocketBook 360+."
+msgstr "Berkomunikasi dengan pembaca PocketBook 360+."
 
 #: /home/kovid/work/calibre/src/calibre/devices/eb600/driver.py:376
 msgid "Communicate with the PocketBook 701"
 msgstr "Berkomunikasi dengan PocketBook 701"
 
 #: /home/kovid/work/calibre/src/calibre/devices/eb600/driver.py:408
-#, fuzzy
 msgid "Communicate with the PocketBook 740"
-msgstr "Berkomunikasi dengan PocketBook 701"
+msgstr "Berkomunikasi dengan PocketBook 740"
 
 #: /home/kovid/work/calibre/src/calibre/devices/eb600/driver.py:426
 msgid "Communicate with the Infibeam Pi2 reader."
-msgstr "Menghubungkan pembaca ebook Infibeam Pi2."
+msgstr "Berkomunikasi dengan pembaca Infibeam Pi2."
 
 #: /home/kovid/work/calibre/src/calibre/devices/edge/driver.py:19
 msgid "Entourage Edge"
@@ -2210,88 +2158,77 @@ msgstr "Entourage Edge"
 
 #: /home/kovid/work/calibre/src/calibre/devices/edge/driver.py:20
 msgid "Communicate with the Entourage Edge."
-msgstr "Menghubungkan pembaca ebook Entourage Edge."
+msgstr "Berkomunikasi dengan pembaca Entourage Edge."
 
 #: /home/kovid/work/calibre/src/calibre/devices/eslick/driver.py:17
-#, fuzzy
 msgid "Communicate with the ESlick e-book reader."
-msgstr "Menghubungkan pembaca ebook The Book."
+msgstr "Berkomunikasi dengan pembaca e-book ESlick."
 
 #: /home/kovid/work/calibre/src/calibre/devices/eslick/driver.py:49
-#, fuzzy
 msgid "Communicate with the Sigmatek e-book reader."
-msgstr "Menghubungkan pembaca ebook The Book."
+msgstr "Berkomunikasi dengan pembaca e-book Sigmatek."
 
 #: /home/kovid/work/calibre/src/calibre/devices/folder_device/driver.py:21 /home/kovid/work/calibre/src/calibre/devices/folder_device/driver.py:38
 msgid "Use an arbitrary folder as a device."
-msgstr "Gunakan folder arbitari sebagai perangkat."
+msgstr "Gunakan sebarang folder sebagai sebuah peranti."
 
 #: /home/kovid/work/calibre/src/calibre/devices/folder_device/driver.py:34 /home/kovid/work/calibre/src/calibre/devices/interface.py:18
 msgid "Device interface"
 msgstr "Antarmuka peranti"
 
 #: /home/kovid/work/calibre/src/calibre/devices/hanlin/driver.py:21
-#, fuzzy
 msgid "Communicate with Hanlin V3 e-book readers."
-msgstr "Berkomunikasi dengan Hanlin V3 pembaca e-book."
+msgstr "Berkomunikasi dengan pembaca e-book Hanlin V3."
 
 #: /home/kovid/work/calibre/src/calibre/devices/hanlin/driver.py:101
-#, fuzzy
 msgid "Communicate with Hanlin V5 e-book readers."
-msgstr "Berkomunikasi dengan Hanlin V5 pembaca e-book."
+msgstr "Berkomunikasi dengan pembaca e-book Hanlin V5."
 
 #: /home/kovid/work/calibre/src/calibre/devices/hanlin/driver.py:120
-#, fuzzy
 msgid "Communicate with the BOOX e-book reader."
-msgstr "Menghubungkan pembaca ebook The Book."
+msgstr "Berkomunikasi dengan pembaca e-book BOOX."
 
 #: /home/kovid/work/calibre/src/calibre/devices/hanlin/driver.py:139
 msgid "Comma separated list of directories to send e-books to on the device. The first one that exists will be used."
-msgstr "Daftar dari direktori untuk mengirim ebook  ke perangkat yang terpisahkan koma. Yang pertama ada akan digunakan."
+msgstr "Daftar dari direktori tempat mengirim e-book ke peranti, yang dipisah koma. Yang pertama ada akan digunakan."
 
 #: /home/kovid/work/calibre/src/calibre/devices/hanvon/driver.py:26
-#, fuzzy
 msgid "Communicate with the Hanvon N520 e-book reader."
 msgstr "Berkomunikasi dengan pembaca e-book Hanvon N520."
 
 #: /home/kovid/work/calibre/src/calibre/devices/hanvon/driver.py:53
-#, fuzzy
 msgid "Communicate with the Kibano e-book reader."
-msgstr "Menghubungkan pembaca ebook The Book."
+msgstr "Berkomunikasi dengan pembaca e-book Kibano."
 
 #: /home/kovid/work/calibre/src/calibre/devices/hanvon/driver.py:67
 msgid "Communicate with The Book reader."
-msgstr "Menghubungkan pembaca ebook The Book."
+msgstr "Berkomunikasi dengan pembaca The Book."
 
 #: /home/kovid/work/calibre/src/calibre/devices/hanvon/driver.py:80
 msgid "Communicate with the Libre Air reader."
-msgstr "Menghubungkan pembaca ebook Libre Air."
+msgstr "Berkomunikasi dengan pembaca Libre Air."
 
 #: /home/kovid/work/calibre/src/calibre/devices/hanvon/driver.py:94
-#, fuzzy
 msgid "Communicate with the SpringDesign Alex e-book reader."
-msgstr "Berkomunikasi dengan SpringDesign Alex e-book Reader."
+msgstr "Berkomunikasi dengan pembaca e-book SpringDesign Alex."
 
 #: /home/kovid/work/calibre/src/calibre/devices/hanvon/driver.py:138 /home/kovid/work/calibre/src/calibre/devices/hanvon/driver.py:149 /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:523 /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:555 /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:701 /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:3565 /home/kovid/work/calibre/src/calibre/devices/usbms/driver.py:417 /home/kovid/work/calibre/src/calibre/devices/usbms/driver.py:424
 msgid "Removing books from device..."
-msgstr "Menghapus buku dari perangkat..."
+msgstr "Menghapus buku dari peranti..."
 
 #: /home/kovid/work/calibre/src/calibre/devices/hanvon/driver.py:156
 msgid "Communicate with the Azbooka"
 msgstr "Berkomunikasi dengan Azbooka"
 
 #: /home/kovid/work/calibre/src/calibre/devices/hanvon/driver.py:176
-#, fuzzy
 msgid "Communicate with the Elonex EB 511 e-book reader."
-msgstr "Berkomunikasi dengan Elonex EB 511 e-book Reader."
+msgstr "Berkomunikasi dengan pembaca e-book Elonex EB 511."
 
 #: /home/kovid/work/calibre/src/calibre/devices/hanvon/driver.py:197
-#, fuzzy
 msgid "Communicate with the Cybook Odyssey e-book reader."
-msgstr "Berkomunikasi dengan Cybook Odyssey pembaca e-book."
+msgstr "Berkomunikasi dengan pembaca e-book Cybook Odyssey."
 
 #: /home/kovid/work/calibre/src/calibre/devices/iliad/driver.py:18
-#, fuzzy
 msgid "Communicate with the IRex Iliad e-book reader."
 msgstr "Berkomunikasi dengan pembaca e-book IRex Iliad."
 
@@ -2300,34 +2237,32 @@ msgid "Cannot get files from this device"
 msgstr "Tak dapat mengambil berkas dari peranti ini"
 
 #: /home/kovid/work/calibre/src/calibre/devices/irexdr/driver.py:18
-#, fuzzy
 msgid "Communicate with the IRex Digital Reader 1000 e-book reader."
-msgstr "Berkomunikasi dengan IRex digital Reader 1000 e-book Reader."
+msgstr "Berkomunikasi dengan pembaca e-book IRex Digital Reader 1000."
 
 #: /home/kovid/work/calibre/src/calibre/devices/irexdr/driver.py:45
 msgid "Communicate with the IRex Digital Reader 800"
-msgstr "Menghubungkan IRex Digital Reader 800"
+msgstr "Berkomunikasi dengan IRex Digital Reader 800"
 
 #: /home/kovid/work/calibre/src/calibre/devices/iriver/driver.py:18
 msgid "Communicate with the Iriver Story reader."
-msgstr "Menghubungkan pembaca ebook Iriver Story."
+msgstr "Berkomunikasi dengan pembaca Iriver Story."
 
 #: /home/kovid/work/calibre/src/calibre/devices/jetbook/driver.py:23
-#, fuzzy
 msgid "Communicate with the JetBook e-book reader."
-msgstr "Menghubungkan pembaca ebook JetBook Color."
+msgstr "Berkomunikasi dengan pembaca e-book JetBook."
 
 #: /home/kovid/work/calibre/src/calibre/devices/jetbook/driver.py:90
 msgid "Communicate with the MiBuk Wolder reader."
-msgstr "Menghubungkan pembaca ebook MiBuk Wolder."
+msgstr "Berkomunikasi dengan pembaca MiBuk Wolder."
 
 #: /home/kovid/work/calibre/src/calibre/devices/jetbook/driver.py:119
 msgid "Communicate with the JetBook Mini reader."
-msgstr "Menghubungkan pembaca ebook JetBook Mini."
+msgstr "Berkomunikasi dengan pembaca JetBook Mini."
 
 #: /home/kovid/work/calibre/src/calibre/devices/jetbook/driver.py:147
 msgid "Communicate with the JetBook Color reader."
-msgstr "Menghubungkan pembaca ebook JetBook Color."
+msgstr "Berkomunikasi dengan pembaca JetBook Color."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kindle/apnx.py:43
 #, python-format
@@ -2339,9 +2274,8 @@ msgid "Could not generate page mapping."
 msgstr "Tak dapat membuat pemetaan halaman."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kindle/driver.py:48
-#, fuzzy
 msgid "Communicate with the Kindle e-book reader."
-msgstr "Menghubungkan pembaca ebook The Book."
+msgstr "Berkomunikasi dengan pembaca e-book Kindle."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kindle/driver.py:80
 #, fuzzy
@@ -2349,14 +2283,14 @@ msgid "The following books are in KFX format. KFX is a virtual book format, and 
 msgstr "Buku berikut ini dalam format KFX. KFX adalah format buku virtual, dan tidak dapat ditransfer dari perangkat. Sebaliknya, Anda harus pergi ke Anda \"mengelola konten dan perangkat\" halaman di homepage Amazon dan men-download buku ke komputer Anda dari sana. Itu akan memberi Anda file AZW3 biasa yang dapat Anda tambahkan ke kaliber secara normal. Klik \"Tampilkan detail\" untuk melihat daftar buku."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kindle/driver.py:215
-#, fuzzy, python-format
+#, python-format
 msgid "%(time)s<br />Last page read: %(loc)d (%(pr)d%%)"
-msgstr "% (waktu) s<br>Halaman terakhir baca:% (Loc) d (% (PR) d%%)"
+msgstr "%(time)s<br />Halaman terakhir dibaca:%(loc)d (%(pr)d%%)"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kindle/driver.py:220
-#, fuzzy, python-format
+#, python-format
 msgid "%(time)s<br />Last page read: Location %(loc)d (%(pr)d%%)"
-msgstr "% (waktu) s<br>Halaman terakhir baca: Location% (Loc) d (% (PR) d%%)"
+msgstr "%(time)s<br />Halaman terakhir dibaca: Lokasi %(loc)d (%(pr)d%%)"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kindle/driver.py:240
 #, python-format
@@ -2374,9 +2308,8 @@ msgid "<b>Location %(dl)d &bull; %(typ)s</b><br />"
 msgstr "<b>Lokasi %(dl)d &bull; %(typ)s</b><br />"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kindle/driver.py:320
-#, fuzzy
 msgid "Communicate with the Kindle 2/3/4/Touch/PaperWhite/Voyage e-book reader."
-msgstr "Berkomunikasi dengan Kindle 2/3/4/Touch/PaperWhite/Voyage e-book Reader."
+msgstr "Berkomunikasi dengan pembaca e-book Kindle 2/3/4/Touch/PaperWhite/Voyage."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kindle/driver.py:334
 msgid "Send page number information when sending books"
@@ -2405,6 +2338,7 @@ msgstr ""
 "<li>pagebreak: Metode \"pagebreak\" memanfaatkan terdapatnya tag <mbp:pagebreak> dalam buku untuk menentukan jumlah halaman.</ul> Metode selain \"fast\" akan lebih lambat. Lebih jauh lagi, bila \"pagebreak\" gagal menentukan jumlah halaman yang tepat untuk digunakan, dan jika \"accurate\" gagal, \"fast\" akan digunkan."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kindle/driver.py:354
+#, fuzzy
 msgid "Custom column name to retrieve page counts from"
 msgstr "Custom nama kolom untuk mengambil jumlah dari halaman"
 
@@ -2413,32 +2347,33 @@ msgid "If you have a custom column in your library that you use to store the pag
 msgstr "Jika Anda memiliki kolom ubahan di pustaka Anda yang Anda gunakan untuk menyimpan cacah halaman buku, Anda dapat membuat calibre menggunakan informasi itu, alih-alih menghitung jumlah halaman. Tentukan nama kolom ubahan di sini, misalnya, #pages."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kindle/driver.py:359
+#, fuzzy
 msgid "Custom column name to retrieve calculation method from"
 msgstr "Nama kolom custom untuk mengambil dari metode perhitungan"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kindle/driver.py:360
+#, fuzzy
 msgid "If you have a custom column in your library that you use to store the preferred method for calculating the number of pages for a book, you can have calibre use that method instead of the default one selected above.  Specify the name of the custom column here, for example, #pagemethod. The custom column should have the  values: fast, accurate or pagebreak."
 msgstr "Jika Anda memiliki kolom custom di perpustakaan Anda yang Anda gunakan untuk menyimpan metode yang disukai untuk menghitung jumlah halaman untuk buku , Anda dapat memiliki kaliber menggunakan metode yang bukan default yang dipilih di atas . Tentukan nama kolom custom di sini, misalnya , #pagemethod . Kolom kustom harus memiliki nilai-nilai : cepat , akurat atau pagebreak ."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kindle/driver.py:366
 msgid "Overwrite existing apnx on device"
-msgstr "Mengganti apnx yang ada pada perangkat"
+msgstr "Menimpa apnx yang ada pada peranti"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kindle/driver.py:367
+#, fuzzy
 msgid "Uncheck this option to allow an apnx file existing on the device to have priority over the version which calibre would send. Since apnx files are usually deleted when a book is removed from the Kindle, this is mostly useful when resending a book to the device which is already on the device (e.g. after making a modification.)"
-msgstr "Hapus centang opsi ini untuk memungkinkan file apnx ada pada perangkat untuk memiliki prioritas di atas versi yang kaliber akan mengirim . Karena file apnx biasanya dihapus ketika buku dihapus dari Kindle , ini adalah sebagian besar berguna ketika kirim buku ke perangkat yang sudah pada perangkat ( misalnya setelah melakukan modifikasi.)"
+msgstr "Hapus centang opsi ini untuk memungkinkan file apnx ada pada perangkat untuk memiliki prioritas di atas versi yang kaliber akan mengirim. Karena file apnx biasanya dihapus ketika buku dihapus dari Kindle , ini adalah sebagian besar berguna ketika kirim buku ke perangkat yang sudah pada perangkat ( misalnya setelah melakukan modifikasi.)"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kindle/driver.py:564
-#, fuzzy
 msgid "Communicate with the Kindle DX e-book reader."
-msgstr "Berkomunikasi dengan Kindle DX e-book Reader."
+msgstr "Berkomunikasi dengan pembaca e-book Kindle DX."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kindle/driver.py:580
 msgid "Communicate with the Kindle Fire"
 msgstr "Berkomunikasi dengan Kindle Fire"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:80
-#, fuzzy
 msgid "Communicate with the original Kobo Reader and the Kobo WiFi."
 msgstr "Berkomunikasi dengan Kobo Reader asli dan Kobo WiFi."
 
@@ -2460,13 +2395,12 @@ msgid "Normally, the Kobo readers get the cover image from the e-book file itsel
 msgstr "Biasanya, pembaca Kobo mendapatkan gambar sampul dari file e-book itu sendiri. Dengan opsi ini, kaliber akan mengirim gambar sampul yang terpisah ke pembaca, berguna jika Anda telah memodifikasi sampul."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:122 /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:310
-#, fuzzy
 msgid "Upload black and white covers"
-msgstr "Hitam & Putih"
+msgstr "Mengunggah sampul hitam putih"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:123
 msgid "Show expired books"
-msgstr "Tampilkan buku yang kadaluarsa"
+msgstr "Tampilkan buku yang kedaluwarsa"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:124
 #, fuzzy
@@ -2492,9 +2426,8 @@ msgid "Kobo now shows recommendations on the device. In some cases these have fi
 msgstr "Kobo sekarang menunjukkan rekomendasi pada perangkat. Dalam beberapa kasus ini memiliki file tetapi dalam kasus lain mereka hanya pointer ke situs web untuk membeli. Aktifkan jika Anda ingin melihat/menghapusnya."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:136 /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:457
-#, fuzzy
 msgid "Attempt to support newer firmware"
-msgstr "Menyediakan dukungan untuk peningkatan perangkat tegar"
+msgstr "Mencoba untuk mendukung firmware yang lebih baru"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:137
 #, fuzzy
@@ -2515,9 +2448,8 @@ msgid "Adding books to device metadata listing..."
 msgstr "Menambahkan buku ke daftar metadata perangkat..."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:703 /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:3567
-#, fuzzy
 msgid "Kobo database version unsupported - See details"
-msgstr "Versi database Kobo tidak didukung-Lihat rincian"
+msgstr "Versi basis data Kobo tidak didukung - Lihat rincian"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:704 /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:3568
 #, fuzzy
@@ -2573,9 +2505,8 @@ msgid "Book uploading"
 msgstr "Pengunggahan buku"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:197
-#, fuzzy
 msgid "Modify CSS"
-msgstr "CSS"
+msgstr "Ubah CSS"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:198
 #, fuzzy, python-brace-format
@@ -2602,9 +2533,8 @@ msgid "Create new bookshelves on the Kobo if they do not exist. This is only for
 msgstr "Buat rak buku baru di Kobo jika mereka tidak ada. Ini hanya untuk firmware V 2.0.0 atau yang lebih baru."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:242
-#, fuzzy
 msgid "Collections columns:"
-msgstr "Koleksi:"
+msgstr "Kolom koleksi:"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:244
 #, fuzzy
@@ -2637,23 +2567,20 @@ msgid "List the names of collections to be ignored by the collection management.
 msgstr "Daftar nama koleksi yang akan diabaikan oleh manajemen koleksi. Koleksi yang terdaftar tidak akan diubah. Nama dipisahkan dengan koma."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:299
-#, fuzzy
 msgid "Upload covers"
-msgstr "Upload cover dari buku (readers yang lebih baru)"
+msgstr "Unggah sampul"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:307
 msgid "Upload cover images from the calibre library when sending books to the device."
 msgstr "Unggah gambar sampul dari pustaka calibre ketika mengirim buku ke peranti."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:311
-#, fuzzy
 msgid "Convert covers to grayscale when uploading."
-msgstr "Mengkonversi cover untuk grayscale saat meng-upload."
+msgstr "Mengkonversi sampul ke skala kelabu saat mengunggah."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:316
-#, fuzzy
 msgid "Upload dithered covers"
-msgstr "Upload cover dari buku (readers yang lebih baru)"
+msgstr "Unggah sampul ter-dither"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:317
 #, fuzzy
