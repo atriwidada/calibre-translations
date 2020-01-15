@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: calibre\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/calibre\n"
 "POT-Creation-Date: 2020-01-03 07:10+IST\n"
-"PO-Revision-Date: 2020-01-14 18:50+0700\n"
+"PO-Revision-Date: 2020-01-15 13:23+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/calibre/calibre/language/id/)\n"
 "MIME-Version: 1.0\n"
@@ -2048,7 +2048,7 @@ msgstr "Koma memisahkan daftar direktori untuk mengirim e - buku untuk di perang
 
 #: /home/kovid/work/calibre/src/calibre/devices/android/driver.py:346
 msgid "Communicate with S60 phones."
-msgstr "Hubungkan dengan ponsel S60."
+msgstr "Berkomunikasi dengan ponsel S60."
 
 #: /home/kovid/work/calibre/src/calibre/devices/android/driver.py:366
 msgid "Communicate with WebOS tablets."
@@ -2107,9 +2107,8 @@ msgid "Communicate with the EB600 e-book reader."
 msgstr "Berkomunikasi dengan pembaca e-book EB600."
 
 #: /home/kovid/work/calibre/src/calibre/devices/eb600/driver.py:59
-#, fuzzy
 msgid "Communicate with the tolino shine and vision readers"
-msgstr "Berkomunikasi dengan tolino bersinar dan pembaca visi"
+msgstr "Berkomunikasi dengan pembaca tolino shine dan vision"
 
 #: /home/kovid/work/calibre/src/calibre/devices/eb600/driver.py:67 /home/kovid/work/calibre/src/calibre/devices/user_defined/driver.py:63
 msgid "Swap main and card A"
@@ -2471,34 +2470,32 @@ msgid "<hr /><b>Book last read:</b> %(time)s<br /><b>Percentage read:</b> %(pr)d
 msgstr "<hr><b>Buku terakhir Dibaca:</b> % (waktu) s<br><b>Persentase Read:</b> % (PR) d%%<hr>"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:1252
-#, fuzzy, python-format
+#, python-format
 msgid "<b>Chapter %(chapter)d:</b> %(chapter_title)s<br /><b>%(typ)s</b><br /><b>Chapter Progress:</b> %(chapter_progress)s%%<br />%(annotation)s<br /><hr />"
-msgstr "<b>Bab% (Bab) d:</b> %(chapter_title) s<br><b>% (typ) s</b><br><b>Bab kemajuan:</b> %(chapter_progress) s%%<br>% (penjelasan) s<br><hr>"
+msgstr "<b>Bab %(chapter)d:</b> %(chapter_title)s<br><b>%(typ)s</b><br /><b>Kemajuan Bab:</b>%(chapter_progress)s%%<br />%(annotation)s<br /><hr>"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:1262
-#, fuzzy, python-format
+#, python-format
 msgid "<b>Chapter %(chapter)d:</b> %(chapter_title)s<br /><b>%(typ)s</b><br /><b>Chapter progress:</b> %(chapter_progress)s%%<br /><b>Highlight:</b> %(text)s<br /><hr />"
-msgstr "<b>Bab% (Bab) d:</b> %(chapter_title) s<br><b>% (typ) s</b><br><b>Bab kemajuan:</b> %(chapter_progress) s%%<br><b>Sorot:</b> % (teks)<br><hr>"
+msgstr "<b>Bab %(chapter)d:</b> %(chapter_title)s<br /><b>%(typ)s</b><br /><b>Kemajuan Bab:</b> %(chapter_progress)s%%<br /><b>Sorot:</b> %(text)s<br/><hr />"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:1272 /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:1284
-#, fuzzy, python-format
+#, python-format
 msgid "<b>Chapter %(chapter)d:</b> %(chapter_title)s<br /><b>%(typ)s</b><br /><b>Chapter progress:</b> %(chapter_progress)s%%<br /><b>Highlight:</b> %(text)s<br /><b>Notes:</b> %(annotation)s<br /><hr />"
-msgstr "<b>Bab% (Bab) d:</b> %(chapter_title) s<br><b>% (typ) s</b><br><b>Bab kemajuan:</b> %(chapter_progress) s%%<br><b>Sorot:</b> % (teks)<br><b>Catatan:</b> % (anotasi) s<br><hr>"
+msgstr "<b>Bab %(chapter)d:</b> %(chapter_title)s<br /><b>%(typ)s</b><br /><b>Kemajuan bab:</b> %(chapter_progress)s%%<br /><b>Sorot:</b> %(text)s<br /><b>Catatan:</b> %(annotation)s<br /><hr />"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/driver.py:1346
-#, fuzzy, python-format
+#, python-format
 msgid "Communicate with the Kobo Touch, Glo, Mini, Aura HD, Aura H2O, Glo HD, Touch 2, Aura ONE, Aura Edition 2, Aura H2O Edition 2, Clara HD, Forma and Libra H2O eReaders. Based on the existing Kobo driver by %s."
-msgstr "Berkomunikasi dengan Kobo Touch, GLO, Mini, aura HD, aura H2O, GLO HD, sentuh 2, aura satu, aura Edition 2, aura H2O Edition 2, Clara HD, forma dan Libra H2O eReaders. Berdasarkan driver Kobo yang ada oleh %s."
+msgstr "Berkomunikasi dengan eReader Kobo Touch, GLO, Mini, Aura HD, Aura H2O, GLO HD, Touch 2, Aura ONE, Aura Edition 2, Aura H2O Edition 2, Clara HD, Forma, dan Libra H2O. Berdasarkan driver Kobo yang ada oleh %s."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:57
-#, fuzzy
 msgid "Collections, covers && uploads"
-msgstr "Koleksi"
+msgstr "Koleksi, sampul, && pengunggahan"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:58
-#, fuzzy
 msgid "Metadata, on device && advanced"
-msgstr "Metadata, pada perangkat & & tingkat lanjut"
+msgstr "Metadata, pada peranti && tingkat lanjut"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:190
 msgid "Book uploading"
@@ -2542,14 +2539,12 @@ msgid "The Kobo from firmware V2.0.0 supports bookshelves. These are created on 
 msgstr "Kobo dari firmware V 2.0.0 mendukung rak buku. Ini dibuat di Kobo. Tentukan kolom jenis Tag untuk pengelolaan otomatis."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:250
-#, fuzzy
 msgid "Create collections"
-msgstr "Anda dapat membuat koleksi dari tilikan Buku"
+msgstr "Membuat koleksi"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:255
-#, fuzzy
 msgid "Delete empty bookshelves"
-msgstr "Hapus direktori kosong"
+msgstr "Menghapus rak buku kosong"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:256
 #, fuzzy
@@ -2557,9 +2552,8 @@ msgid "Delete any empty bookshelves from the Kobo when syncing is finished. This
 msgstr "Hapus rak buku kosong dari Kobo ketika sinkronisasi selesai. Ini hanya untuk firmware V 2.0.0 atau yang lebih baru."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:260
-#, fuzzy
 msgid "Ignore collections:"
-msgstr "Koleksi:"
+msgstr "Abaikan koleksi:"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:262
 #, fuzzy
@@ -2588,9 +2582,8 @@ msgid "Dither cover images to the appropriate 16c grayscale palette for an eInk 
 msgstr "Gambar sampul dither ke palet grayscale 16c yang sesuai untuk layar eInk. Hal ini biasanya menjamin akurasi yang lebih besar dan menghindari banding, membuat selimut tidur terlihat lebih baik. Pada FW > = 4,11, nikel sendiri terkadang dapat melakukan pekerjaan yang layak. Tidak berpengaruh tanpa \"upload sampul hitam dan putih\"!"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:331
-#, fuzzy
 msgid "Keep cover aspect ratio"
-msgstr "Pertahankan rasio aspek ketika diubah skala"
+msgstr "Pertahankan rasio aspek sampul"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:332
 #, fuzzy
@@ -2618,14 +2611,12 @@ msgid "Use the PNG image format instead of JPG. Higher quality, especially with 
 msgstr "Gunakan format gambar PNG bukan JPG. Kualitas yang lebih tinggi, terutama dengan \"upload dithered Covers\" diaktifkan, yang juga akan membantu menghasilkan file yang berpotensi lebih kecil. Perilaku yang sama sekali tidak diketahui pada lama (< 3. x) Kobo firmwares, dikenal untuk berperilaku pada FW > = 4,8. Tidak berpengaruh tanpa \"upload sampul hitam dan putih\"!"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:400
-#, fuzzy
 msgid "Show as on device"
-msgstr "Tampilkan kolom ”Perangkat” tilikan diska pada saat mulai"
+msgstr "Tampilkan seperti pada peranti"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:407
-#, fuzzy
 msgid "Show recommendations"
-msgstr "Tampilkan Rekomendasi"
+msgstr "Tampilkan rekomendasi"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:408
 #, fuzzy
@@ -2633,9 +2624,8 @@ msgid "Kobo shows recommendations on the device.  In some cases these have files
 msgstr "Kobo menunjukkan rekomendasi pada perangkat.  Dalam beberapa kasus ini memiliki file tetapi dalam kasus lain mereka hanya pointer ke situs web untuk membeli. Aktifkan jika Anda ingin melihat/menghapusnya."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:415
-#, fuzzy
 msgid "Show archived books"
-msgstr "Tampilkan/sembunyikan terjemahan yang telah diarsipkan"
+msgstr "Tampilkan buku yang diarsipkan"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:416
 #, fuzzy
@@ -2643,12 +2633,10 @@ msgid "Archived books are listed on the device but need to be downloaded to read
 msgstr "Buku yang Diarsipkan tercantum pada perangkat, namun perlu didownload untuk dibaca. Gunakan opsi ini untuk menampilkan buku ini dan mencocokkannya dengan buku di Perpustakaan kaliber."
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:422
-#, fuzzy
 msgid "Show previews"
-msgstr "Tampilkan Previews"
+msgstr "Tampilkan pratinjau"
 
 #: /home/kovid/work/calibre/src/calibre/devices/kobo/kobotouch_config.py:449
-#, fuzzy
 msgid "Advanced options"
 msgstr "Opsi tingkat lanjut"
 
@@ -2822,40 +2810,36 @@ msgstr "Berkomunikasi dengan SONY DPT-S1"
 
 #: /home/kovid/work/calibre/src/calibre/devices/misc.py:571
 msgid "Communicate with the Bq Cervantes"
-msgstr "Berkomunikasi dengan BQ Cervantes"
+msgstr "Berkomunikasi dengan Bq Cervantes"
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/base.py:31
-#, fuzzy
 msgid "MTP Device"
-msgstr "Tak dapat membuka perangkat MTP '%s'"
+msgstr "Peranti MTP"
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/base.py:33
-#, fuzzy
 msgid "Communicate with MTP devices"
-msgstr "Tak menemukan perangkat MTP"
+msgstr "Berkomunikasi dengan peranti MTP"
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/driver.py:193 /home/kovid/work/calibre/src/calibre/devices/smart_device_app/driver.py:1219 /home/kovid/work/calibre/src/calibre/devices/usbms/driver.py:149
 msgid "Get device information..."
 msgstr "Mengambil informasi peranti..."
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/driver.py:216
-#, fuzzy
 msgid "Listing files, this can take a while"
-msgstr "Daftar file, ini dapat memakan waktu"
+msgstr "Membuat daftar berkas, ini dapat memakan waktu"
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/driver.py:231
 msgid "Reading e-book metadata"
 msgstr "Sedang membaca metadata e-book"
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/driver.py:264
-#, fuzzy, python-format
+#, python-format
 msgid "Reading metadata from %s"
-msgstr "Galat saat membaca dari berkas: %s"
+msgstr "Membaca metadata dari %s"
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/driver.py:283
-#, fuzzy
 msgid "Updating metadata cache on device"
-msgstr "Memutakhirkan metadata dalam trek {0} dari {1}"
+msgstr "Memutakhirkan singgahan metadata pada peranti"
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/driver.py:285
 msgid "Finished reading metadata from device"
@@ -2875,9 +2859,9 @@ msgid "Transfer to device finished..."
 msgstr "Transfer ke peranti selesai..."
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/driver.py:468
-#, fuzzy, python-format
+#, python-format
 msgid "Added %s"
-msgstr "Ditambah: %s"
+msgstr "Ditambahkan %s"
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/driver.py:470
 msgid "Adding complete"
@@ -2888,9 +2872,9 @@ msgid "Deleting books from device..."
 msgstr "Sedang menghapus buku dari perangkat..."
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/driver.py:492
-#, fuzzy, python-format
+#, python-format
 msgid "Deleted %s"
-msgstr "Dihapus: %s"
+msgstr "Dihapus %s"
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/driver.py:493
 msgid "All books deleted"
@@ -2910,9 +2894,8 @@ msgid "All books removed"
 msgstr "Semua buku terhapus"
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/unix/driver.py:241
-#, fuzzy
 msgid "Unnamed device"
-msgstr "Perangkat Tanpa Nama"
+msgstr "Peranti tanpa nama"
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/unix/driver.py:243
 #, fuzzy, python-brace-format
@@ -2920,9 +2903,8 @@ msgid "The device {0} is not allowing connections. Unlock the screen on the {0},
 msgstr "Perangkat {0} tidak mengizinkan sambungan. Membuka kunci layar pada {0}, tekan \"Allow\" pada setiap pesan popup koneksi yang Anda lihat, maka baik menunggu satu menit atau restart kaliber. Anda mungkin juga harus mengubah mode koneksi USB di {0} ke \"mode transfer media (MTP)\" atau serupa."
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/unix/driver.py:269 /home/kovid/work/calibre/src/calibre/devices/mtp/windows/driver.py:339
-#, fuzzy
 msgid "Unknown MTP device"
-msgstr "Tak dapat membuka perangkat MTP \"%s\""
+msgstr "Peranti MTP tak dikenal"
 
 #: /home/kovid/work/calibre/src/calibre/devices/mtp/unix/driver.py:288 /home/kovid/work/calibre/src/calibre/devices/mtp/windows/driver.py:227
 #, python-format
@@ -2940,44 +2922,36 @@ msgid "The Windows Portable Devices service is not available on your computer. Y
 msgstr "Layanan perangkat portabel Windows tidak tersedia di komputer Anda. Anda mungkin perlu menginstal Windows Media Player 11 atau yang lebih baru dan/atau me-restart komputer Anda"
 
 #: /home/kovid/work/calibre/src/calibre/devices/nokia/driver.py:19
-#, fuzzy
 msgid "Communicate with the Nokia 770 Internet Tablet."
 msgstr "Berkomunikasi dengan Nokia 770 Internet tablet."
 
 #: /home/kovid/work/calibre/src/calibre/devices/nokia/driver.py:43
-#, fuzzy
 msgid "Communicate with the Nokia N800/N810/N900/N950/N9 Maemo/MeeGo devices."
-msgstr "Berkomunikasi dengan perangkat Nokia N800/N810/N900/N950/N9 Maemo/MeeGo."
+msgstr "Berkomunikasi dengan peranti Nokia N800/N810/N900/N950/N9 Maemo/MeeGo."
 
 #: /home/kovid/work/calibre/src/calibre/devices/nokia/driver.py:57
-#, fuzzy
 msgid "Communicate with the Nokia E71X"
-msgstr "Berkomunikasi dengan Azbooka"
+msgstr "Berkomunikasi dengan Nokia E71X"
 
 #: /home/kovid/work/calibre/src/calibre/devices/nokia/driver.py:78
-#, fuzzy
 msgid "Communicate with the Nokia E52"
-msgstr "Berkomunikasi dengan Azbooka"
+msgstr "Berkomunikasi dengan Nokia E52"
 
 #: /home/kovid/work/calibre/src/calibre/devices/nook/driver.py:22
-#, fuzzy
 msgid "The Nook"
-msgstr "Profil ini ditujukan untuk B&N Nook Color."
+msgstr "The Nook"
 
 #: /home/kovid/work/calibre/src/calibre/devices/nook/driver.py:23
-#, fuzzy
 msgid "Communicate with the Nook e-book reader."
-msgstr "Menghubungkan pembaca ebook The Book."
+msgstr "Berkomunikasi dengan pembaca e-book Nook."
 
 #: /home/kovid/work/calibre/src/calibre/devices/nook/driver.py:84
-#, fuzzy
 msgid "Communicate with the Nook Color, TSR, Glowlight and Tablet e-book readers."
-msgstr "Berkomunikasi dengan warna Nook, TSR, Glowlight dan tablet e-book pembaca."
+msgstr "Berkomunikasi dengan pembaca e-book Nook Color, TSR, Glowlight, dan Tablet."
 
 #: /home/kovid/work/calibre/src/calibre/devices/nuut2/driver.py:19
-#, fuzzy
 msgid "Communicate with the Nuut2 e-book reader."
-msgstr "Menghubungkan pembaca ebook The Book."
+msgstr "Berkomunikasi dengan pembaca e-book Nuut2."
 
 #: /home/kovid/work/calibre/src/calibre/devices/paladin/driver.py:30
 msgid "Communicate with the Paladin readers"
@@ -2989,9 +2963,8 @@ msgid "Comma separated list of metadata fields to turn into collections on the d
 msgstr "Comma dipisahkan daftar bidang metadata untuk berubah menjadi koleksi pada perangkat. Kemungkinan termasuk:"
 
 #: /home/kovid/work/calibre/src/calibre/devices/prs505/driver.py:25
-#, fuzzy
 msgid "Communicate with Sony e-book readers older than the PRST1."
-msgstr "Berkomunikasi dengan Sony e-book pembaca lebih tua dari PRST1."
+msgstr "Berkomunikasi dengan pembaca e-book Sony yang lebih tua dari PRST1."
 
 #: /home/kovid/work/calibre/src/calibre/devices/prs505/driver.py:61
 #, fuzzy
@@ -3055,9 +3028,8 @@ msgid "Unnamed"
 msgstr "Tanpa nama"
 
 #: /home/kovid/work/calibre/src/calibre/devices/prst1/driver.py:41
-#, fuzzy
 msgid "Communicate with the PRST1 and newer SONY e-book readers"
-msgstr "Berkomunikasi dengan PRST1 dan lebih baru SONY e-book pembaca"
+msgstr "Berkomunikasi dengan pembaca e-book PRST1 dan SONY yang lebih baru"
 
 #: /home/kovid/work/calibre/src/calibre/devices/prst1/driver.py:75
 #, fuzzy
@@ -3269,54 +3241,44 @@ msgid "Failed to allocate a random port"
 msgstr "Gagal mengalokasikan sebuah port acak"
 
 #: /home/kovid/work/calibre/src/calibre/devices/sne/driver.py:19
-#, fuzzy
 msgid "Communicate with the Samsung SNE e-book reader."
-msgstr "Berkomunikasi dengan pembaca e-book SNE Samsung."
+msgstr "Berkomunikasi dengan pembaca e-book Samsung SNE."
 
 #: /home/kovid/work/calibre/src/calibre/devices/teclast/driver.py:14
-#, fuzzy
 msgid "Communicate with the Teclast K3/K5 reader."
-msgstr "Menghubungkan pembaca ebook JetBook Color."
+msgstr "Berkomunikasi dengan pembaca Teclast K3/K5."
 
 #: /home/kovid/work/calibre/src/calibre/devices/teclast/driver.py:42
-#, fuzzy
 msgid "Communicate with the Newsmy reader."
-msgstr "Menghubungkan pembaca ebook The Book."
+msgstr "Berkomunikasi dengan pembaca Newsmy."
 
 #: /home/kovid/work/calibre/src/calibre/devices/teclast/driver.py:54
-#, fuzzy
 msgid "Communicate with the Archos reader."
-msgstr "Menghubungkan pembaca ebook The Book."
+msgstr "Berkomunikasi dengan pembaca Archos."
 
 #: /home/kovid/work/calibre/src/calibre/devices/teclast/driver.py:65
-#, fuzzy
 msgid "Communicate with the Pico reader."
-msgstr "Menghubungkan pembaca ebook The Book."
+msgstr "Berkomunikasi dengan pembaca Pico."
 
 #: /home/kovid/work/calibre/src/calibre/devices/teclast/driver.py:78
-#, fuzzy
 msgid "Communicate with the iPapyrus reader."
-msgstr "Menghubungkan pembaca ebook Libre Air."
+msgstr "Berkomunikasi dengan pembaca iPapyrus."
 
 #: /home/kovid/work/calibre/src/calibre/devices/teclast/driver.py:90
-#, fuzzy
 msgid "Communicate with the Sovos reader."
-msgstr "Menghubungkan pembaca ebook The Book."
+msgstr "Berkomunikasi dengan pembaca Sovos."
 
 #: /home/kovid/work/calibre/src/calibre/devices/teclast/driver.py:101
-#, fuzzy
 msgid "Communicate with the Sunstech EB700 reader."
-msgstr "Menghubungkan pembaca ebook PocketBook 360+."
+msgstr "Berkomunikasi dengan pembaca Sunstech EB700."
 
 #: /home/kovid/work/calibre/src/calibre/devices/teclast/driver.py:113
-#, fuzzy
 msgid "Communicate with the Stash W950 reader."
-msgstr "Menghubungkan pembaca ebook Libre Air."
+msgstr "Berkomunikasi dengan pembaca Stash W950."
 
 #: /home/kovid/work/calibre/src/calibre/devices/teclast/driver.py:126
-#, fuzzy
 msgid "Communicate with the Wexler reader."
-msgstr "Menghubungkan pembaca ebook The Book."
+msgstr "Berkomunikasi dengan pembaca Wexler."
 
 #: /home/kovid/work/calibre/src/calibre/devices/usbms/device.py:275
 #, fuzzy, python-format
@@ -3392,9 +3354,8 @@ msgid "Extra customization"
 msgstr "Penyesuaian plugin lokal"
 
 #: /home/kovid/work/calibre/src/calibre/devices/usbms/driver.py:86
-#, fuzzy
 msgid "Communicate with an e-book reader."
-msgstr "Menghubungkan pembaca ebook The Book."
+msgstr "Berkomunikasi dengan sebuah pembaca e-book."
 
 #: /home/kovid/work/calibre/src/calibre/devices/usbms/driver.py:155
 #, fuzzy, python-format
@@ -3481,9 +3442,9 @@ msgid "Rendered %s"
 msgstr "Dirender Gubahan"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/comic/input.py:217
-#, fuzzy, python-format
+#, python-format
 msgid "Failed %s"
-msgstr "stat gagal %s"
+msgstr "Gagal %s"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/comic/input.py:272
 #, python-format
@@ -3529,14 +3490,12 @@ msgid "Path to a file containing rules to transform the CSS styles in this book.
 msgstr "Path ke file yang berisi aturan untuk mengubah gaya CSS dalam buku ini. Cara termudah untuk membuat file tersebut adalah dengan menggunakan Wizard untuk membuat aturan dalam GUI kaliber. Mengaksesnya di bagian \"Lihat & Feel-> Transform Styles\" pada dialog konversi. Setelah membuat aturan, Anda dapat menggunakan tombol \"ekspor\" untuk menyimpannya ke file."
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/conversion/cli.py:121
-#, fuzzy
 msgid "INPUT OPTIONS"
-msgstr "Opsi masukan"
+msgstr "OPSI MASUKAN"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/conversion/cli.py:121
-#, fuzzy
 msgid "OUTPUT OPTIONS"
-msgstr "Opsi luaran"
+msgstr "OPSI LUARAN"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/conversion/cli.py:169
 #, fuzzy, python-format
@@ -3559,9 +3518,8 @@ msgid "Options to control the look and feel of the output"
 msgstr "Pilihan untuk mengontrol tampilan dan nuansa output"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/conversion/cli.py:209
-#, fuzzy
 msgid "HEURISTIC PROCESSING"
-msgstr "Proses heuristik"
+msgstr "PEMROSESAN HEURISTIK"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/conversion/cli.py:210
 #, fuzzy, python-format
@@ -3569,9 +3527,8 @@ msgid "Modify the document text and structure using common patterns. Disabled by
 msgstr "Mengubah dokumen teks dan struktur menggunakan pola umum. Dinonaktifkan secara default. Gunakan% (en) s untuk mengaktifkan.  Tindakan individu dapat dinonaktifkan dengan opsi% (dis) s."
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/conversion/cli.py:217
-#, fuzzy
 msgid "SEARCH AND REPLACE"
-msgstr "Cari dan ganti"
+msgstr "CARI DAN GANTI"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/conversion/cli.py:218 /home/kovid/work/calibre/src/calibre/gui2/convert/search_and_replace.py:26
 #, fuzzy
@@ -3579,9 +3536,8 @@ msgid "Modify the document text and structure using user defined patterns."
 msgstr "Mengubah dokumen teks dan struktur menggunakan pola yang ditetapkan pengguna."
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/conversion/cli.py:227
-#, fuzzy
 msgid "STRUCTURE DETECTION"
-msgstr "Deteksi"
+msgstr "DETEKSI STRUKTUR"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/conversion/cli.py:228
 #, fuzzy
@@ -3589,9 +3545,8 @@ msgid "Control auto-detection of document structure."
 msgstr "Kontrol auto-deteksi struktur dokumen."
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/conversion/cli.py:237
-#, fuzzy
 msgid "TABLE OF CONTENTS"
-msgstr "Daftar Isi"
+msgstr "DAFTAR ISI"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/conversion/cli.py:238
 #, fuzzy
@@ -3599,9 +3554,8 @@ msgid "Control the automatic generation of a Table of Contents. By default, if t
 msgstr "Mengontrol generasi otomatis dari daftar isi. Secara default, jika file sumber memiliki daftar isi, maka akan digunakan dalam preferensi untuk yang dihasilkan secara otomatis."
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/conversion/cli.py:248
-#, fuzzy
 msgid "METADATA"
-msgstr "Metadata"
+msgstr "METADATA"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/conversion/cli.py:248
 #, fuzzy
@@ -3609,9 +3563,8 @@ msgid "Options to set metadata in the output"
 msgstr "Opsi output"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/conversion/cli.py:251
-#, fuzzy
 msgid "DEBUG"
-msgstr "DEBUG"
+msgstr "AWAKUTU"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/conversion/cli.py:251
 #, fuzzy
@@ -5782,7 +5735,6 @@ msgid "UK"
 msgstr "UK"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/metadata/sources/amazon.py:898
-#, fuzzy
 msgid "Australia"
 msgstr "Australia"
 
@@ -5802,7 +5754,6 @@ msgid "Spain"
 msgstr "Spanyol"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/metadata/sources/amazon.py:902
-#, fuzzy
 msgid "Brazil"
 msgstr "Brazil"
 
@@ -5812,7 +5763,6 @@ msgid "Netherlands"
 msgstr "Belanda"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/metadata/sources/amazon.py:904
-#, fuzzy
 msgid "China"
 msgstr "China"
 
@@ -5921,9 +5871,8 @@ msgid "Book author(s)"
 msgstr "Penulis buku"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/metadata/sources/cli.py:36
-#, fuzzy
 msgid "Book ISBN"
-msgstr "ISBN"
+msgstr "ISBN buku"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/metadata/sources/cli.py:38
 #, fuzzy
@@ -7595,7 +7544,6 @@ msgid "calibre versions newer than 2.0 do not run on Windows XP. This is because
 msgstr "Versi kaliber lebih baru dari 2,0 tidak berjalan pada Windows XP. Hal ini karena toolkit grafis menggunakan kaliber (QT 5) crash banyak pada Windows XP. Kami sarankan Anda tinggal dengan <a href=\"%s\">kaliber 1,48</a> yang bekerja dengan baik pada Windows XP."
 
 #: /home/kovid/work/calibre/src/calibre/gui2/actions/add.py:34 /home/kovid/work/calibre/src/calibre/gui2/metadata/basic_widgets.py:956 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/boss.py:300
-#, fuzzy
 msgid "Books"
 msgstr "Buku"
 
@@ -8351,9 +8299,8 @@ msgstr[0] "Memulai konversi buku"
 msgstr[1] "Memulai konversi {} buku"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/actions/convert.py:256
-#, fuzzy
 msgid "Book deleted"
-msgstr "Akan dihapus"
+msgstr "Buku dihapus"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/actions/convert.py:257
 #, fuzzy
@@ -8538,9 +8485,8 @@ msgid "The best way to resume this operation is to re-copy all the books with th
 msgstr "Cara terbaik untuk melanjutkan operasi ini adalah dengan menyalin ulang semua buku dengan opsi untuk \"Periksa duplikat saat menyalin ke Perpustakaan\" di preferensi-> impor/ekspor-> menambahkan buku diaktifkan."
 
 #: /home/kovid/work/calibre/src/calibre/gui2/actions/copy_to_library.py:479
-#, fuzzy
 msgid "Canceled"
-msgstr "Batal"
+msgstr "Dibatalkan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/actions/copy_to_library.py:484
 #, fuzzy
@@ -8682,7 +8628,6 @@ msgid "Remove matching books from device"
 msgstr "Menghapus buku dari perangkat..."
 
 #: /home/kovid/work/calibre/src/calibre/gui2/actions/delete.py:164 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/file_list.py:697
-#, fuzzy
 msgid "Cannot delete"
 msgstr "Tak bisa menghapus"
 
@@ -8706,9 +8651,8 @@ msgid "<b>All formats</b> for the selected books will be <b>deleted</b> from you
 msgstr "<b>Semua format</b> untuk buku yang dipilih akan <b>dihapus</b> dari perpustakaan Anda.<br>Metadata buku akan disimpan. Kamu yakin?"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/actions/delete.py:265
-#, fuzzy
 msgid "Cannot delete books"
-msgstr "Tidak dapat menghapus"
+msgstr "Tidak dapat menghapus buku"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/actions/delete.py:266
 #, fuzzy
@@ -9970,9 +9914,8 @@ msgid "Similar books..."
 msgstr "mendekati dengan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/actions/similar_books.py:27
-#, fuzzy
 msgid "Books by same author"
-msgstr "buku-buku"
+msgstr "Buku dari pengarang yang sama"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/actions/similar_books.py:28
 #, fuzzy
@@ -9980,9 +9923,8 @@ msgid "Books in this series"
 msgstr "Klik untuk melihat seri ini"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/actions/similar_books.py:30
-#, fuzzy
 msgid "Books by this publisher"
-msgstr "Penerbit: {publisher}"
+msgstr "Buku dari penerbit ini"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/actions/similar_books.py:31
 #, fuzzy
@@ -10047,9 +9989,8 @@ msgid "Choose stores"
 msgstr "Penyimpanan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/actions/store.py:90 /home/kovid/work/calibre/src/calibre/gui2/actions/store.py:107 /home/kovid/work/calibre/src/calibre/gui2/actions/store.py:114 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/search.py:1092 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/search.py:1259
-#, fuzzy
 msgid "Cannot search"
-msgstr "Tidak dapat mencari pengguna saat akun luring"
+msgstr "Tidak dapat mencari"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/actions/store.py:135
 #, fuzzy
@@ -10693,7 +10634,6 @@ msgid "Edit file filter rules"
 msgstr "Menerapkan aturan penyaringan ke %s"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/author_mapper.py:26
-#, fuzzy
 msgid "Change"
 msgstr "Ubah"
 
@@ -11375,9 +11315,8 @@ msgid "Merge additional content after comments in descriptions section."
 msgstr "Gabungkan konten tambahan setelah komentar di bagian Deskripsi."
 
 #: /home/kovid/work/calibre/src/calibre/gui2/catalog/catalog_epub_mobi_ui.py:391
-#, fuzzy
 msgid "&After"
-msgstr "Sesud_ah"
+msgstr "Sesud&ah"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/catalog/catalog_epub_mobi_ui.py:392
 #, fuzzy
@@ -11481,19 +11420,19 @@ msgstr "Daftar tidak terurut"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/comments_editor.py:263 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/editor/widget.py:76
 msgid "Align left"
-msgstr "Rata Kiri"
+msgstr "Rata kiri"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/comments_editor.py:264
 msgid "Align center"
-msgstr "Rata Tengah"
+msgstr "Rata tengah"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/comments_editor.py:265 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/editor/widget.py:80
 msgid "Align right"
-msgstr "Rata Kanan"
+msgstr "Rata kanan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/comments_editor.py:266
 msgid "Align justified"
-msgstr "Rata KiriKanan"
+msgstr "Rata kiri kanan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/comments_editor.py:267 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/editor/canvas.py:294
 msgid "Undo"
@@ -11620,9 +11559,8 @@ msgid "Create link"
 msgstr "B_uat Taut"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/comments_editor.py:636 /home/kovid/work/calibre/src/calibre/gui2/metadata/basic_widgets.py:1112
-#, fuzzy
 msgid "&Browse"
-msgstr "Ram_ban"
+msgstr "Ram&ban"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/comments_editor.py:642 /home/kovid/work/calibre/src/calibre/gui2/linux_file_dialogs.py:209 /home/kovid/work/calibre/src/calibre/gui2/linux_file_dialogs.py:286 /home/kovid/work/calibre/src/calibre/gui2/preferences/coloring.py:508 /home/kovid/work/calibre/src/calibre/gui2/preferences/texture_chooser.py:113 /home/kovid/work/calibre/src/calibre/gui2/qt_file_dialogs.py:196 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/editor/insert_resource.py:298 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/file_list.py:62 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/file_list.py:851 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/reports.py:1308 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:90 /home/kovid/work/calibre/src/calibre/gui2/win_file_dialogs.py:265
 #, fuzzy
@@ -12473,9 +12411,8 @@ msgid "Choose cover for "
 msgstr "Pilih sampul untuk "
 
 #: /home/kovid/work/calibre/src/calibre/gui2/convert/metadata.py:204 /home/kovid/work/calibre/src/calibre/gui2/metadata/basic_widgets.py:1162
-#, fuzzy
 msgid "Cannot read"
-msgstr "%s: tidak dapat membaca event inotify"
+msgstr "Tidak dapat membaca"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/convert/metadata.py:205 /home/kovid/work/calibre/src/calibre/gui2/metadata/basic_widgets.py:1163
 #, fuzzy
@@ -12498,9 +12435,8 @@ msgid " is not a valid picture"
 msgstr "CITRA untuk"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/convert/metadata_ui.py:157
-#, fuzzy
 msgid "Book cover"
-msgstr "Sampul"
+msgstr "Sampul buku"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/convert/metadata_ui.py:158
 #, fuzzy
@@ -13409,9 +13345,8 @@ msgid "a"
 msgstr "a"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/convert/xpath_wizard_ui.py:73
-#, fuzzy
 msgid "br"
-msgstr "; angka bersifat opsional<br/> <br/> ULANGI [ POSITION ANY ] ; perulangan tanpa henti<br/>"
+msgstr "br"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/convert/xpath_wizard_ui.py:74
 msgid "div"
@@ -15597,7 +15532,6 @@ msgid "All checked books will be <b>permanently deleted</b> from your device. Pl
 msgstr "Semua buku yang diperiksa akan <b>dihapus secara permanen</b> dari perangkat Anda. Silakan verifikasi daftar."
 
 #: /home/kovid/work/calibre/src/calibre/gui2/dialogs/delete_matching_from_device.py:84 /home/kovid/work/calibre/src/calibre/gui2/dialogs/edit_authors_dialog.py:58 /home/kovid/work/calibre/src/calibre/gui2/dialogs/plugin_updater.py:280 /home/kovid/work/calibre/src/calibre/gui2/dialogs/template_dialog.py:276 /home/kovid/work/calibre/src/calibre/gui2/preferences/server.py:1027
-#, fuzzy
 msgid "Author"
 msgstr "Pengarang"
 
@@ -17723,9 +17657,8 @@ msgid "Every &x days"
 msgstr "Setiap"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/dialogs/scheduler.py:302
-#, fuzzy
 msgid "&Account"
-msgstr "Akun:"
+msgstr "&Akun"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/dialogs/scheduler.py:316
 #, fuzzy
@@ -17771,9 +17704,8 @@ msgid " issues"
 msgstr "Masalah"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/dialogs/scheduler.py:345
-#, fuzzy
 msgid "all issues"
-msgstr "Masalah"
+msgstr "semua terbitan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/dialogs/scheduler.py:353
 #, fuzzy
@@ -17899,9 +17831,8 @@ msgid "before or equal to"
 msgstr "sebelum atau sama dengan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/dialogs/search.py:36
-#, fuzzy
 msgid "after or equal to"
-msgstr "Berkas <filename>&lt;etc&gt;/gdm/custom.conf</filename> berformat <filename>keyfile</filename>. Kata kunci dalam kurung siku mendefinisikan bagian grup, string sebelum tanda sama dengan adalah kunci dan data setelah tanda sama dengan mewakili nilai mereka. Baris kosong atau baris yang diawali dengan tanda pagar (#) diabaikan."
+msgstr "setelah atau sama dengan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/dialogs/search.py:51
 #, fuzzy, python-format
@@ -17984,9 +17915,8 @@ msgid "The author to search for"
 msgstr "Penulis - \\author"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/dialogs/search.py:131 /home/kovid/work/calibre/src/calibre/gui2/icon_theme.py:228 /home/kovid/work/calibre/src/calibre/gui2/store/search/adv_search_builder_ui.py:217 /home/kovid/work/calibre/src/calibre/gui2/store/search/search_ui.py:182 /home/kovid/work/calibre/src/calibre/gui2/store/stores/mobileread/adv_search_builder_ui.py:180
-#, fuzzy
 msgid "&Author:"
-msgstr "Peng_arang:"
+msgstr "Peng&arang:"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/dialogs/search.py:134
 #, fuzzy
@@ -18715,9 +18645,8 @@ msgid "&Subject"
 msgstr "Subjek:"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/email.py:204
-#, fuzzy
 msgid "A&lias"
-msgstr "Yang"
+msgstr "A&lias"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/email.py:206
 #, fuzzy
@@ -19390,9 +19319,8 @@ msgid "Switch to the previous Virtual library in the Virtual library tab bar"
 msgstr "Beralih ke Perpustakaan Virtual sebelumnya di Bilah tab Perpustakaan Virtual"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/init.py:501 /home/kovid/work/calibre/src/calibre/srv/ajax.py:285 /home/kovid/work/calibre/src/calibre/srv/tests/ajax.py:71
-#, fuzzy
 msgid "All books"
-msgstr "Semua buku dihapus"
+msgstr "Semua buku"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/init.py:504
 #, fuzzy
@@ -19436,7 +19364,7 @@ msgstr "Menghapus '%s'"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/init.py:573 /home/kovid/work/calibre/src/calibre/gui2/init.py:584
 msgid "Book details"
-msgstr "Detail buku"
+msgstr "Rincian buku"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/init.py:641
 #, fuzzy
@@ -19885,7 +19813,6 @@ msgid "Sort on %s"
 msgstr "Melewati ruas pengurutan yang tak didukung: %s"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/library/views.py:427 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/reports.py:1060
-#, fuzzy
 msgid "Ascending"
 msgstr "Naik"
 
@@ -19900,7 +19827,6 @@ msgid "Change text alignment for %s"
 msgstr "Perataan - Teks-ke-teks"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/library/views.py:437 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/editor/widget.py:78
-#, fuzzy
 msgid "Center"
 msgstr "Tengah"
 
@@ -20138,9 +20064,8 @@ msgid "Path to Calibre Portable (%s) too long. Must be less than 59 characters."
 msgstr "Path ke Calibre Portable ( %s) terlalu lama. Harus kurang dari 59 karakter."
 
 #: /home/kovid/work/calibre/src/calibre/gui2/main.py:131 /home/kovid/work/calibre/src/calibre/gui2/wizard/__init__.py:777
-#, fuzzy
 msgid "Calibre Library"
-msgstr "Membuat katalog buku yang ada dalam pustaka calibre Anda"
+msgstr "Pustaka Calibre"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/main.py:163
 #, fuzzy
@@ -21157,9 +21082,8 @@ msgid "Executable files"
 msgstr "Semua berkas yang dapat dieksekusi dalam folder ini akan tampil pada menu Skrip."
 
 #: /home/kovid/work/calibre/src/calibre/gui2/open_with.py:111 /home/kovid/work/calibre/src/calibre/gui2/open_with.py:185 /home/kovid/work/calibre/src/calibre/gui2/open_with.py:216
-#, fuzzy
 msgid "Cannot execute"
-msgstr "Tak bisa jalankan perintah \"%s\": %s"
+msgstr "Tidak dapat mengeksekusi"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/open_with.py:112 /home/kovid/work/calibre/src/calibre/gui2/open_with.py:186 /home/kovid/work/calibre/src/calibre/gui2/open_with.py:217
 #, fuzzy, python-format
@@ -22793,7 +22717,6 @@ msgid "Subject"
 msgstr "perihal"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/preferences/emailp.py:33
-#, fuzzy
 msgid "Alias"
 msgstr "Alias"
 
@@ -23034,7 +22957,6 @@ msgid "No subtitle"
 msgstr "Subjudul."
 
 #: /home/kovid/work/calibre/src/calibre/gui2/preferences/look_feel.py:441 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/preferences.py:317
-#, fuzzy
 msgid "Bottom"
 msgstr "Bawah"
 
@@ -23069,7 +22991,6 @@ msgid "Medium"
 msgstr "Sedang"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/preferences/look_feel.py:481
-#, fuzzy
 msgid "Always"
 msgstr "Selalu"
 
@@ -23500,9 +23421,8 @@ msgid "Show comments &heading:"
 msgstr "Tampilkan heading"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/preferences/look_feel_ui.py:646
-#, fuzzy
 msgid "&Book details"
-msgstr "Detail buku"
+msgstr "Rincian &buku"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/preferences/look_feel_ui.py:647
 #, fuzzy
@@ -25062,7 +24982,6 @@ msgid "Template files"
 msgstr "<ahelp hid=\".\">Menentukan tata letak halaman untuk laporan. Tata letak halaman dimuat dari file templat, yang menetapkan header, footer, dan latar belakang halaman.</ahelp>"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/preferences/server.py:1027
-#, fuzzy
 msgid "Book"
 msgstr "Buku"
 
@@ -26165,7 +26084,6 @@ msgid "false"
 msgstr "false"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/store/config/chooser/adv_search_builder_ui.py:229 /home/kovid/work/calibre/src/calibre/gui2/store/search/adv_search_builder_ui.py:226
-#, fuzzy
 msgid "Affiliate:"
 msgstr "Afiliasi:"
 
@@ -26185,9 +26103,8 @@ msgid "Enable:"
 msgstr "M_emfungsikan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/store/config/chooser/chooser_widget_ui.py:76
-#, fuzzy
 msgid "&All"
-msgstr "Semu_a"
+msgstr "Semu&a"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/store/config/chooser/chooser_widget_ui.py:77 /home/kovid/work/calibre/src/calibre/gui2/wizard/send_email_ui.py:151
 #, fuzzy
@@ -26200,7 +26117,6 @@ msgid "&Invert"
 msgstr "Bal_ikkan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/store/config/chooser/models.py:21 /home/kovid/work/calibre/src/calibre/gui2/store/search/models.py:42
-#, fuzzy
 msgid "Affiliate"
 msgstr "Afiliasi"
 
@@ -28032,9 +27948,9 @@ msgid "Choose path"
 msgstr "Pilih path untuk memuat sumber daya gambar"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/boss.py:1175
-#, fuzzy, python-format
+#, python-format
 msgid "Book (%s)"
-msgstr "Tata judul buku yang ditambahkan"
+msgstr "Buku (%s)"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/boss.py:1191
 #, fuzzy
@@ -28236,7 +28152,6 @@ msgid "European scripts"
 msgstr "_Skrip"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/char_select.py:62
-#, fuzzy
 msgid "Armenian"
 msgstr "Armenia"
 
@@ -28444,9 +28359,8 @@ msgid "Combining half marks"
 msgstr "Kombinasi Half Marks"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/char_select.py:110
-#, fuzzy
 msgid "African scripts"
-msgstr "Republik Afrika Tengah"
+msgstr "Skrip Afrika"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/char_select.py:111
 #, fuzzy
@@ -28664,12 +28578,10 @@ msgid "Bengali"
 msgstr "Bengal"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/char_select.py:161
-#, fuzzy
 msgid "Brahmi"
 msgstr "Brahmi"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/char_select.py:162
-#, fuzzy
 msgid "Chakma"
 msgstr "Chakma"
 
@@ -28803,12 +28715,10 @@ msgid "Batak"
 msgstr "Batak"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/char_select.py:192
-#, fuzzy
 msgid "Buginese"
 msgstr "Bugis"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/char_select.py:193
-#, fuzzy
 msgid "Cham"
 msgstr "Cham"
 
@@ -28890,7 +28800,6 @@ msgid "Philippine scripts"
 msgstr "Peso Filipina"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/char_select.py:212
-#, fuzzy
 msgid "Buhid"
 msgstr "Buhid"
 
@@ -28914,7 +28823,6 @@ msgid "East Asian scripts"
 msgstr "Timur"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/char_select.py:219
-#, fuzzy
 msgid "Bopomofo"
 msgstr "Bopomofo"
 
@@ -29264,7 +29172,6 @@ msgid "Mathematical symbols"
 msgstr "Miscellaneous Mathematical Symbols-A"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/char_select.py:306
-#, fuzzy
 msgid "Arrows"
 msgstr "Panah"
 
@@ -29389,9 +29296,8 @@ msgid "Other symbols"
 msgstr "Simbol Lainnya"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/char_select.py:340
-#, fuzzy
 msgid "Alchemical symbols"
-msgstr "Simbol Kimia"
+msgstr "Simbol kimia"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/char_select.py:341
 #, fuzzy
@@ -29399,7 +29305,6 @@ msgid "Ancient symbols"
 msgstr "Simbol Kuno"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/char_select.py:342
-#, fuzzy
 msgid "Braille patterns"
 msgstr "Pola Braille"
 
@@ -30911,9 +30816,8 @@ msgid "<h3>Background color</h3>Change the background color of the selected text
 msgstr "<h3>Warna latar belakang</h3>Mengubah warna latar belakang teks yang dipilih"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/editor/widget.py:76
-#, fuzzy
 msgid "Align &left"
-msgstr "Rata Kiri"
+msgstr "Rata k&iri"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/editor/widget.py:77
 #, fuzzy
@@ -30931,9 +30835,8 @@ msgid "<h3>Center</h3>Center the paragraph"
 msgstr "<h3>Pusat</h3>Pusat paragraf"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/editor/widget.py:80
-#, fuzzy
 msgid "Align &right"
-msgstr "Rata Kanan"
+msgstr "Rata k&anan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/editor/widget.py:81
 #, fuzzy
@@ -31338,9 +31241,8 @@ msgid "&Merge selected style files"
 msgstr "tidak ada berkas yang dipilih"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/file_list.py:601 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/file_list.py:631 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/file_list.py:639
-#, fuzzy
 msgid "Cannot rename"
-msgstr "Tak bisa mengubah nama berkas ‘%s’ menjadi ‘%s’"
+msgstr "Tidak dapat mengubah nama"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/file_list.py:602 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/file_list.py:632
 #, fuzzy, python-format
@@ -32270,9 +32172,8 @@ msgid "Failed to launch the worker process used for rendering the preview"
 msgstr "Gagal untuk memulai proses pengerjaan yang digunakan untuk merender pratinjau"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/preview.py:594
-#, fuzzy
 msgid "Cannot disable"
-msgstr "Tak bisa mematikan sumber"
+msgstr "Tidak dapat menonaktifkan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/preview.py:595
 #, fuzzy
@@ -34366,9 +34267,8 @@ msgid "&Donate to support calibre development"
 msgstr "Menyumbang untuk mendukung pengembangan calibre"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:671
-#, fuzzy
 msgid "Book tool bar"
-msgstr "Peranti sunting buku"
+msgstr "Bilah alat buku"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:672
 #, fuzzy
@@ -34897,7 +34797,6 @@ msgid "<p><b>Failed to convert: %s"
 msgstr "%A, %B %e %l:%M:%S %p"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/ui.py:836
-#, fuzzy
 msgid ""
 "\n"
 "                Many older e-book reader devices are incapable of displaying\n"
@@ -34913,16 +34812,20 @@ msgid ""
 "                your e-book reader may have trouble with the EPUB.\n"
 "                        "
 msgstr ""
-"Banyak yang lebih tua perangkat pembaca e-book tidak mampu menampilkan\n"
-"                File EPUB yang memiliki komponen internal dalam ukuran tertentu.\n"
-"                Oleh karena itu, ketika mengkonversi ke EPUB, kaliber secara otomatis mencoba\n"
-"                untuk memisahkan EPUB menjadi potongan berukuran lebih kecil.  Untuk beberapa\n"
-"                berkas yang merupakan blok teks yang tidak terdiferilasi besar,\n"
-"                membelah gagal.<p>Anda dapat <b>mengatasi masalah</b> dengan meningkatkan\n"
-"                ukuran Split maksimum di bawah <i>output ePub</i> dalam dialog konversi,\n"
-"                atau dengan menyalakan pengolahan heuristik, juga dalam konversi\n"
-"                Dialog. Perhatikan bahwa jika Anda membuat ukuran maksimum Split terlalu besar,\n"
-"                pembaca e-book Anda mungkin bermasalah dengan EPUB."
+"\n"
+"                Banyak peranti pembaca e-book yang lebih tua tidak mampu\n"
+"                menampilkan berkas-berkas EPUB yang memiliki komponen internal\n"
+"                lebih dari ukuran tertentu. Oleh karena itu, ketika mengkonversi\n"
+"                ke EPUB, calibre secara otomatis mencoba untuk memisahkan EPUB menjadi\n"
+"                potongan-potongan yang berukuran lebih kecil.  Untuk beberapa\n"
+"                berkas yang merupakan blok teks besar yang tidak terbedakan,\n"
+"                pemecahan ini gagal.<p>Anda dapat <b>mengatasi masalah</b> dengan\n"
+"                meningkatkan ukuran pemecahan maksimum di bawah <i>Luaran ePub</i>\n"
+"                dalam dialog konversi, atau dengan menyalakan Pemrosesan Heuristik,\n"
+"                juga dalam dialog konversi. Perhatikan bahwa jika Anda membuat ukuran\n"
+"                maksimum pemecahan terlalu besar, pembaca e-book Anda mungkin\n"
+"                bermasalah dengan EPUB.\n"
+"                        "
 
 #: /home/kovid/work/calibre/src/calibre/gui2/ui.py:850
 msgid "Conversion Failed"
