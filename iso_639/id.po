@@ -15,18 +15,18 @@
 # tri bagus dp <tri.bdp@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: calibre\n"
+"Project-Id-Version: calibre master\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/calibre\n"
 "POT-Creation-Date: 2020-01-03 07:10+IST\n"
-"PO-Revision-Date: 2020-01-17 18:09+0700\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"PO-Revision-Date: 2020-01-20 00:01+0700\n"
+"Last-Translator: Andika Triwidada <atriwidada@gnome.org>\n"
 "Language-Team: Indonesian (http://www.transifex.com/calibre/calibre/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: id\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: /home/kovid/work/calibre/manual/conf.py:159 /home/kovid/work/calibre/src/calibre/ebooks/conversion/plugins/epub_output.py:222 /home/kovid/work/calibre/src/calibre/ebooks/conversion/plugins/snb_output.py:206 /home/kovid/work/calibre/src/calibre/ebooks/oeb/polish/create.py:34
 msgid "Start"
@@ -319,18 +319,16 @@ msgid "Get new calibre plugins or update your existing ones"
 msgstr "Dapatkan plugin calibre yang baru atau perbaharui yang sudah ada"
 
 #: /home/kovid/work/calibre/src/calibre/customize/builtins.py:1108 /home/kovid/work/calibre/src/calibre/gui2/convert/look_and_feel.py:21
-#, fuzzy
 msgid "Look & feel"
-msgstr "Tampilan & kesan"
+msgstr "Tampilan & rasa"
 
 #: /home/kovid/work/calibre/src/calibre/customize/builtins.py:1110 /home/kovid/work/calibre/src/calibre/customize/builtins.py:1123 /home/kovid/work/calibre/src/calibre/customize/builtins.py:1135 /home/kovid/work/calibre/src/calibre/customize/builtins.py:1147 /home/kovid/work/calibre/src/calibre/customize/builtins.py:1160
 msgid "Interface"
 msgstr "Antarmuka"
 
 #: /home/kovid/work/calibre/src/calibre/customize/builtins.py:1114
-#, fuzzy
 msgid "Adjust the look and feel of the calibre interface to suit your tastes"
-msgstr "Menyesuaikan tampilan dan rasa interface calibre sesuai selera Anda"
+msgstr "Menyesuaikan tampilan dan rasa antarmuka calibre agar sesuai selera Anda"
 
 #: /home/kovid/work/calibre/src/calibre/customize/builtins.py:1121
 msgid "Behavior"
@@ -914,14 +912,12 @@ msgid "GLOB PATTERN"
 msgstr "POLA GLOB"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add.py:348
-#, fuzzy
 msgid "A filename (glob) pattern, files matching this pattern will be ignored when scanning directories for files. Can be specified multiple times for multiple patterns. For e.g.: *.pdf will ignore all pdf files"
-msgstr "Sebuah nama file (glob) pola, file yang sesuai dengan pola ini akan diabaikan ketika memindai direktori untuk file. Dapat ditentukan beberapa kali untuk beberapa pola. Untuk misalnya: *. pdf akan mengabaikan semua file PDF"
+msgstr "Sebuah pola (glob) nama berkas, berkas yang sesuai dengan pola ini akan diabaikan ketika memindai direktori untuk berkas. Dapat ditentukan beberapa kali untuk beberapa pola. Misalnya: *.pdf akan mengabaikan semua berkas pdf"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add.py:355
-#, fuzzy
 msgid "A filename (glob) pattern, files matching this pattern will be added when scanning directories for files, even if they are not of a known e-book file type. Can be specified multiple times for multiple patterns."
-msgstr "Sebuah nama file (glob) pola, file yang sesuai dengan pola ini akan ditambahkan ketika memindai direktori untuk file, bahkan jika mereka bukan dari jenis file e-book yang dikenal. Dapat ditentukan beberapa kali untuk beberapa pola."
+msgstr "Sebuah pola (glob) nama berkas, berkas yang sesuai dengan pola ini akan ditambahkan ketika memindai direktori untuk berkas, bahkan jika mereka bukan dari jenis berkas e-book yang dikenal. Dapat ditentukan beberapa kali untuk beberapa pola."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add.py:379
 msgid "You must specify at least one file to add"
@@ -947,7 +943,6 @@ msgid "This column stores tag like data (i.e. multiple comma separated values). 
 msgstr "Kolom ini menyimpan tag seperti data (yaitu beberapa nilai yang dipisahkan koma). Hanya berlaku jika tipedata adalah teks."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add_custom_column.py:49
-#, fuzzy
 msgid ""
 "A dictionary of options to customize how the data in this column will be interpreted. This is a JSON  string. For enumeration columns, use --display=\"{\\\"enum_values\\\":[\\\"val1\\\", \\\"val2\\\"]}\"\n"
 "There are many options that can go into the display variable.The options by column type are:\n"
@@ -959,15 +954,15 @@ msgid ""
 "\n"
 "The best way to find legal combinations is to create a custom column of the appropriate type in the GUI then look at the backup OPF for a book (ensure that a new OPF has been created since the column was added). You will see the JSON for the \"display\" for the new column in the OPF."
 msgstr ""
-"Sebuah kamus pilihan untuk menyesuaikan bagaimana data dalam kolom ini akan ditafsirkan. Ini adalah string JSON. Untuk enumerasi kolom, gunakan--display = \"{\\\" enum_values \\ \": [\\\" val1 \\ \", \\\" val2 \\ \"]}\"\n"
+"Sebuah kamus pilihan untuk menyesuaikan bagaimana data dalam kolom ini akan ditafsirkan. Ini adalah string JSON. Untuk enumerasi kolom, gunakan --display=\"{\\\"enum_values\\\":[\\\"val1\\\", \\\"val2\\\"]}\"\n"
 "Ada banyak pilihan yang bisa masuk ke variabel tampilan. Pilihan dengan jenis kolom adalah:\n"
 "komposit: composite_template, composite_sort, make_category, contains_html, use_decorations\n"
 "datetime: date_format\n"
 "enumerasi: enum_values, enum_colors, use_decorations\n"
-"Int, mengapung: number_format\n"
+"int, float: number_format\n"
 "teks: is_names, use_decorations\n"
 "\n"
-"Cara terbaik untuk menemukan kombinasi hukum adalah untuk membuat kolom kustom dari jenis yang sesuai di GUI kemudian melihat OPF cadangan untuk sebuah buku (memastikan bahwa OPF baru telah dibuat sejak kolom ditambahkan). Anda akan melihat JSON untuk \"display\" untuk kolom baru di OPF."
+"Cara terbaik untuk menemukan kombinasi yang legal adalah dengan membuat kolom ubahan dari jenis yang sesuai di GUI kemudian melihat OPF cadangan untuk sebuah buku (memastikan bahwa OPF baru telah dibuat sejak kolom ditambahkan). Anda akan melihat JSON untuk \"display\" untuk kolom baru di OPF."
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_add_custom_column.py:82
 msgid "You must specify label, name and datatype"
@@ -1001,7 +996,6 @@ msgid "A %(fmt)s file already exists for book: %(id)d, not replacing"
 msgstr "Sebuah berkas %(fmt)s sudah ada untuk buku: %(id)d, tidak menggantikan"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_backup_metadata.py:21
-#, fuzzy
 msgid ""
 "%prog backup_metadata [options]\n"
 "\n"
@@ -1012,14 +1006,15 @@ msgid ""
 "Note that there is normally no need to do this, as the OPF files are backed up\n"
 "automatically, every time metadata is changed.\n"
 msgstr ""
-"% prog backup_metadata [pilihan]\n"
+"%prog backup_metadata [pilihan]\n"
 "\n"
-"Cadangan metadata yang disimpan dalam database ke masing-masing file OPF di setiap\n"
-"Direktori buku. Hal ini biasanya terjadi secara otomatis, tetapi Anda dapat menjalankan\n"
-"perintah untuk memaksa kembali generasi OPF file, dengan--semua pilihan.\n"
+"Membuat cadangan metadata yang disimpan dalam basis data ke masing-masing berkas\n"
+"OPF di setiap direktori buku. Hal ini biasanya terjadi secara otomatis, tetapi\n"
+"Anda dapat menjalankan perintah untuk memaksa kembali pembuatan berkas OPF, dengan\n"
+"opsi --all.\n"
 "\n"
-"Perhatikan bahwa biasanya tidak perlu melakukan ini, karena file OPF dicadangkan\n"
-"secara otomatis, setiap metadata waktu berubah."
+"Perhatikan bahwa biasanya tidak perlu melakukan ini, karena berkas OPF dicadangkan\n"
+"secara otomatis, setiap saat metadata berubah.\n"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_backup_metadata.py:38
 msgid "Normally, this command only operates on books that have out of date OPF files. This option makes it operate on all books."
@@ -1030,7 +1025,6 @@ msgid "{} OPTIONS"
 msgstr "OPSI {}"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_catalog.py:49
-#, fuzzy
 msgid ""
 "%prog catalog /path/to/destination.(csv|epub|mobi|xml...) [options]\n"
 "\n"
@@ -1038,11 +1032,12 @@ msgid ""
 "Options control how entries are displayed in the generated catalog output.\n"
 "Note that different catalog formats support different sets of options.\n"
 msgstr ""
-"% prog Katalog/path/to/Destination. (CSV | ePub | Mobi | XML...) pilihan\n"
+"%prog catalog /path/ke/tujuan.(csv|epub|mobi|xml...) [pilihan]\n"
 "\n"
-"Mengekspor Katalog dalam format yang ditentukan oleh jalur/ke/tujuan ekstensi.\n"
-"Pilihan kontrol bagaimana entri ditampilkan dalam output Katalog dihasilkan.\n"
-"Perhatikan bahwa format Katalog yang berbeda mendukung set yang berbeda dari pilihan."
+"Mengekspor katalog dalam format yang ditentukan oleh ekstensi path/ke/tujuan.\n"
+"Pilihan mengendalikan bagaimana entri ditampilkan dalam luaran katalog yang\n"
+"dihasilkan. Perhatikan bahwa format katalog yang berbeda mendukung set\n"
+"yang berbeda dari pilihan.\n"
 
 #: /home/kovid/work/calibre/src/calibre/db/cli/cmd_catalog.py:66
 #, fuzzy
@@ -33967,14 +33962,12 @@ msgid "Sync preview position to editor position"
 msgstr "Posisi panel pratinjau kontak (horisontal)"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:460
-#, fuzzy
 msgid "Refresh preview"
-msgstr "Segarkan Pratilik Gaya"
+msgstr "Segarkan pratilik"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:461
-#, fuzzy
 msgid "Split this file"
-msgstr "_Pecah"
+msgstr "Pecah berkas ini"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:462
 #, fuzzy
@@ -33992,9 +33985,8 @@ msgid "Find previous in preview"
 msgstr "Temukan kemunculan sebelumnya dari frasa"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:468
-#, fuzzy
 msgid "&Find/replace"
-msgstr "Cari & Ganti"
+msgstr "&Cari/ganti"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:468
 #, fuzzy
@@ -34047,14 +34039,12 @@ msgid "Mark selected text or unmark already marked text"
 msgstr "Menandai teks yang dipilih atau menghapus tanda yang sudah ditandai teks"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:489
-#, fuzzy
 msgid "Go to &line"
-msgstr "Pergi ke _Baris"
+msgstr "Pergi ke &baris"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:489
-#, fuzzy
 msgid "Go to line number"
-msgstr "Ke baris"
+msgstr "Ke nomor baris"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:490
 #, fuzzy
@@ -34210,9 +34200,8 @@ msgid "Manage user created snippets"
 msgstr "Kelola _Snippet..."
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:546
-#, fuzzy
 msgid "&File"
-msgstr "Berkas:"
+msgstr "&Berkas"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:554
 #, fuzzy
@@ -34220,9 +34209,8 @@ msgid "&Recently opened books"
 msgstr "Baru-baru Ini Dibuka"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:579
-#, fuzzy
 msgid "&Tools"
-msgstr "_Perkakas"
+msgstr "Ala&t"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:597
 #, fuzzy
@@ -34230,9 +34218,8 @@ msgid "External &links"
 msgstr "Taut"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:604
-#, fuzzy
 msgid "&View"
-msgstr "_Tampilan"
+msgstr "&Tilik"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:605
 #, fuzzy
@@ -34300,9 +34287,8 @@ msgid "Inspector"
 msgstr "Pemeriksa"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:760
-#, fuzzy
 msgid "Text search"
-msgstr "Area entri pencarian teks"
+msgstr "Pencarian teks"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/ui.py:766
 #, fuzzy
@@ -34369,14 +34355,12 @@ msgid "Specify the name of the &tag to insert:"
 msgstr "Sisipkan tag berikutnya dari pesan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:88
-#, fuzzy
 msgid "Text (HTML) files"
-msgstr "Membuka berkas HTML"
+msgstr "Berkas (HTML) teks"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:89
-#, fuzzy
 msgid "Style (CSS) files"
-msgstr "Penyedia gaya CSS gubahan:"
+msgstr "Berkas (CSS) gaya"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:92
 msgid "Audio"
@@ -34387,9 +34371,8 @@ msgid "Video"
 msgstr "Video"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:94
-#, fuzzy
 msgid "OPF file (metadata)"
-msgstr "Menyimpan Metadata ke Berkas"
+msgstr "Berkas OPF (metadata)"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:95
 #, fuzzy
@@ -34397,9 +34380,8 @@ msgid "Table of contents file (NCX)"
 msgstr "Daftar Isi"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:99
-#, fuzzy
 msgid "Arrange in folders"
-msgstr "Susun"
+msgstr "Susun dalam folder-folder"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:106
 #, fuzzy
@@ -34447,9 +34429,8 @@ msgid "Choose the file to import"
 msgstr "Pilih Berkas %s Impor Dari Folder"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:210
-#, fuzzy
 msgid "Source file:"
-msgstr "Berkas Sumber:"
+msgstr "Berkas sumber:"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:216
 #, fuzzy
@@ -34457,26 +34438,22 @@ msgid "Choose the location for the newly created EPUB"
 msgstr "Pilih lokasi untuk EPUB yang baru dibuat"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:222
-#, fuzzy
 msgid "Destination file:"
-msgstr "Pilih berkas tujuan"
+msgstr "Berkas tujuan:"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:230
-#, fuzzy
 msgid "Importable files"
-msgstr "Berkas"
+msgstr "Berkas yang dapat diimpor"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:239
-#, fuzzy
 msgid "Choose destination"
-msgstr "Pilih folder tujuan"
+msgstr "Pilih tujuan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:240
 msgid "EPUB files"
 msgstr "Berkas EPUB"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:248
-#, fuzzy
 msgid "Need document"
 msgstr "Perlu dokumen"
 
@@ -34486,14 +34463,12 @@ msgid "You must specify the source file that will be imported."
 msgstr "Anda harus menyebutkan sebuah berkas, bukan direktori."
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:398
-#, fuzzy
 msgid "No results found"
-msgstr "Hasil tak ditemukan"
+msgstr "Tidak ada hasil yang ditemukan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:416
-#, fuzzy
 msgid "Choose file to edit"
-msgstr "Sunting Berkas"
+msgstr "Pilih berkas yang akan disunting"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:437
 #, fuzzy, python-brace-format
@@ -34522,9 +34497,8 @@ msgstr ""
 "Teks utama: {1}"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:640 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:848
-#, fuzzy
 msgid "Filter files"
-msgstr "Saring berkas menurut nama"
+msgstr "Berkas penyaring"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:644
 #, fuzzy
@@ -34532,9 +34506,8 @@ msgid "Choose a &file to link to:"
 msgstr "Jika Anda ingin, Anda dapat mengedit gaya dokumen saat ini, dan kemudian menyimpan dokumen sebagai template. Untuk menyimpan dokumen sebagai template, pilih <emph>Berkas - </emph> <link href=\"text/shared/01/01110300.xhp\" name=\"Templates - Save as Template\"> <emph>Templat - Simpan sebagai Templat</emph>.</link>"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:649 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:857
-#, fuzzy
 msgid "Filter locations"
-msgstr "Lokasi"
+msgstr "Lokasi penyaring"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:655 /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:862
 #, fuzzy
@@ -34584,17 +34557,15 @@ msgstr ""
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:798
 msgid "Title Page"
-msgstr "Judul Halaman"
+msgstr "Halaman Judul"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:805
-#, fuzzy
 msgid "Copyright page"
-msgstr "Hak Cipta:"
+msgstr "Laman hak cipta"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:817
-#, fuzzy
 msgid "Page with title, author, publisher, etc."
-msgstr "Halaman dengan judul, penulis, penerbit, dll"
+msgstr "Halaman dengan judul, penulis, penerbit, dll."
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:818
 #, fuzzy
@@ -34617,9 +34588,8 @@ msgid "Choose a &file:"
 msgstr "Pilih berkas"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:875
-#, fuzzy
 msgid "About semantics"
-msgstr "Semantik"
+msgstr "Tentang semantik"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:876
 #, fuzzy
@@ -34676,9 +34646,8 @@ msgid "Import &image"
 msgstr "Impor sebuah image kontainer atau VM"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/widgets.py:1165
-#, fuzzy
 msgid "Choose a cover image"
-msgstr "Pilih Gambar Sampul CD"
+msgstr "Pilih gambar sampul"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/ui.py:103
 #, fuzzy
@@ -34696,17 +34665,14 @@ msgid "&Eject connected device"
 msgstr "Menambah buku ke calibre atau perangkat yang terkoneksi"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/ui.py:291
-#, fuzzy
 msgid "Quit calibre"
-msgstr "_Keluar"
+msgstr "Keluar calibre"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/ui.py:298
-#, fuzzy
 msgid "Minimize the calibre window"
-msgstr "Meminimalkan jendela"
+msgstr "Meminimalkan jendela calibre"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/ui.py:307
-#, fuzzy
 msgid "Clear the current search"
 msgstr "Bersihkan pencarian saat ini"
 
@@ -34716,19 +34682,16 @@ msgid "Focus the book list"
 msgstr "Fokus ke daftar percakapan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/ui.py:321
-#, fuzzy
 msgid "Clear the virtual library"
-msgstr "Ubah pustaka Virtual"
+msgstr "Bersihkan pustaka virtual"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/ui.py:328
-#, fuzzy
 msgid "Clear the additional restriction"
-msgstr "_Bersihkan"
+msgstr "Bersihkan pembatasan tambahan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/ui.py:448
-#, fuzzy
 msgid "Debug mode"
-msgstr "Mode debug"
+msgstr "Mode awakutu"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/ui.py:449
 #, fuzzy, python-format
@@ -34821,9 +34784,8 @@ msgid "here"
 msgstr "di sini"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/ui.py:864
-#, fuzzy
 msgid "Conversion failed"
-msgstr "Konversi nama berkas gagal: %s\n"
+msgstr "Konversi gagal"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/ui.py:875
 #, fuzzy
@@ -34831,9 +34793,8 @@ msgid "Recipe Disabled"
 msgstr "Tidak aktif"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/ui.py:908
-#, fuzzy
 msgid "<b>Failed</b>"
-msgstr "<b>:</b>"
+msgstr "<b>Gagal</b>"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/ui.py:948
 #, fuzzy
@@ -34910,9 +34871,8 @@ msgstr[0] " (satu pembaruan plugin)"
 msgstr[1] " ({} pembaruan plugin)"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/update.py:227
-#, fuzzy
 msgid "Update found"
-msgstr "Pemutakhiran tak ditemukan"
+msgstr "Pemutakhiran ditemukan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/update.py:229
 #, fuzzy
@@ -34922,16 +34882,14 @@ msgstr[0] "Updated"
 msgstr[1] ""
 
 #: /home/kovid/work/calibre/src/calibre/gui2/update.py:256 /home/kovid/work/calibre/src/calibre/gui2/update.py:262
-#, fuzzy
 msgid "Plugin updates"
-msgstr "Pengaya"
+msgstr "Pemutakhiran pengaya"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/update.py:259
-#, fuzzy
 msgid "A plugin update is available"
 msgid_plural "There are {} plugin updates available"
-msgstr[0] "Tak tersedia pemutakhiran"
-msgstr[1] ""
+msgstr[0] "Tersedia sebuah pemutakhiran pengaya"
+msgstr[1] "Tersedia {} pemutakhiran pengaya"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/update.py:264
 #, fuzzy
@@ -34939,17 +34897,14 @@ msgid "Install and configure user plugins"
 msgstr "_Konfigurasikan Pengaya…"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/viewer/bookmarks.py:38
-#, fuzzy
 msgid "Rename this bookmark"
-msgstr "Mengubah nama penanda taut:"
+msgstr "Ubah nama markah ini"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/viewer/bookmarks.py:40
-#, fuzzy
 msgid "Remove this bookmark"
-msgstr "Buang penanda taut ini"
+msgstr "Buang markah ini"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/viewer/bookmarks.py:42
-#, fuzzy
 msgid "Sort by name"
 msgstr "Urutkan berdasar nama"
 
@@ -34998,34 +34953,28 @@ msgid "Sort bookmarks by position in book"
 msgstr "Posisi jendela buku alamat pada layar"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/viewer/bookmarks.py:211
-#, fuzzy
 msgid "Export bookmarks"
-msgstr "Ekspor Alamat"
+msgstr "Ekspor markah"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/viewer/bookmarks.py:212 /home/kovid/work/calibre/src/calibre/gui2/viewer/bookmarks.py:223
-#, fuzzy
 msgid "Saved bookmarks"
-msgstr "penanda taut disimpan"
+msgstr "Markah yang disimpan"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/viewer/bookmarks.py:222
-#, fuzzy
 msgid "Import bookmarks"
-msgstr "Impor Penanda Taut"
+msgstr "Impor markah"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/viewer/bookmarks.py:269
-#, fuzzy
 msgid "Bookmark"
-msgstr "Penanda Taut"
+msgstr "Markah"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/viewer/bookmarks.py:278
-#, fuzzy
 msgid "Add bookmark"
-msgstr "Tambah bookmark"
+msgstr "Tambah markah"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/viewer/bookmarks.py:279
-#, fuzzy
 msgid "Enter title for bookmark:"
-msgstr "Masukkan judul publikasi."
+msgstr "Masukkan judul untuk markah:"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/viewer/config_ui.py:509
 #, fuzzy
@@ -35033,14 +34982,12 @@ msgid "Configure E-book viewer"
 msgstr "Sebuah toko e-book."
 
 #: /home/kovid/work/calibre/src/calibre/gui2/viewer/config_ui.py:510
-#, fuzzy
 msgid "Se&rif family:"
-msgstr "_Keluarga:"
+msgstr "Keluarga Se&rif:"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/viewer/config_ui.py:511
-#, fuzzy
 msgid "&Sans family:"
-msgstr "Keluarga fonta sans-serif"
+msgstr "Keluarga &Sans:"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/viewer/config_ui.py:518
 msgid "Serif"
