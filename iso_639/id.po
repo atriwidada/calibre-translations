@@ -18,15 +18,15 @@ msgstr ""
 "Project-Id-Version: calibre master\n"
 "Report-Msgid-Bugs-To: https://bugs.launchpad.net/calibre\n"
 "POT-Creation-Date: 2020-01-03 07:10+IST\n"
-"PO-Revision-Date: 2020-01-20 00:01+0700\n"
-"Last-Translator: Andika Triwidada <atriwidada@gnome.org>\n"
+"PO-Revision-Date: 2020-01-20 11:50+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/calibre/calibre/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: id\n"
 "Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: /home/kovid/work/calibre/manual/conf.py:159 /home/kovid/work/calibre/src/calibre/ebooks/conversion/plugins/epub_output.py:222 /home/kovid/work/calibre/src/calibre/ebooks/conversion/plugins/snb_output.py:206 /home/kovid/work/calibre/src/calibre/ebooks/oeb/polish/create.py:34
 msgid "Start"
@@ -5746,7 +5746,6 @@ msgid "Japan"
 msgstr "Japan"
 
 #: /home/kovid/work/calibre/src/calibre/ebooks/metadata/sources/amazon.py:901
-#, fuzzy
 msgid "Spain"
 msgstr "Spanyol"
 
@@ -29369,7 +29368,6 @@ msgid "Transport and map symbols"
 msgstr "Simbol Peta Dan Transportasi"
 
 #: /home/kovid/work/calibre/src/calibre/gui2/tweak_book/char_select.py:358
-#, fuzzy
 msgid "Specials"
 msgstr "Spesial"
 
@@ -38496,7 +38494,7 @@ msgstr "Bekerja"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:276
 msgid "Brazilian Portuguese"
-msgstr "Portugis Brasilia"
+msgstr "Portugis Brasil"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:277
 msgid "English (UK)"
@@ -38635,89 +38633,72 @@ msgid "English (South Africa)"
 msgstr "Inggris (Afrika Selatan)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:311
-#, fuzzy
 msgid "Spanish (Paraguay)"
-msgstr "Paraguai"
+msgstr "Spanyol (Paraguay)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:312
-#, fuzzy
 msgid "Spanish (Uruguay)"
-msgstr "Spanyol"
+msgstr "Spanyol (Uruguay)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:313
-#, fuzzy
 msgid "Spanish (Argentina)"
-msgstr "Spanyol"
+msgstr "Spanyol (Argentina)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:314
-#, fuzzy
 msgid "Spanish (Costa Rica)"
-msgstr "Amerika/Costa_Rica"
+msgstr "Spanyol (Kosta Rika)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:315
-#, fuzzy
 msgid "Spanish (Mexico)"
-msgstr "Spanyol"
+msgstr "Spanyol (Meksiko)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:316
-#, fuzzy
 msgid "Spanish (Cuba)"
-msgstr "Spanyol"
+msgstr "Spanyol (Kuba)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:317
-#, fuzzy
 msgid "Spanish (Chile)"
-msgstr "Spanyol"
+msgstr "Spanyol (Chili)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:318
-#, fuzzy
 msgid "Spanish (Ecuador)"
-msgstr "Ekuador"
+msgstr "Spanyol (Ekuador)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:319
-#, fuzzy
 msgid "Spanish (Honduras)"
-msgstr "Honduras"
+msgstr "Spanyol (Honduras)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:320
-#, fuzzy
 msgid "Spanish (Venezuela)"
-msgstr "Venezuela"
+msgstr "Spanyol (Venezuela)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:321
-#, fuzzy
 msgid "Spanish (Bolivia)"
-msgstr "Bolivia"
+msgstr "Spanyol (Bolivia)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:322
-#, fuzzy
 msgid "Spanish (Nicaragua)"
-msgstr "Nikaragua"
+msgstr "Spanyol (Nikaragua)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:323
-#, fuzzy
 msgid "Spanish (Colombia)"
-msgstr "Kolombia"
+msgstr "Spanyol (Kolombia)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:324
-#, fuzzy
 msgid "German (AT)"
-msgstr "_Jerman"
+msgstr "Jerman (AT)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:325
-#, fuzzy
 msgid "French (BE)"
-msgstr "_Perancis"
+msgstr "Perancis (BE)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:326
-#, fuzzy
 msgid "Dutch (NL)"
-msgstr "Aruba/Belanda (nl_AW)"
+msgstr "Belanda (NL)"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:327
-#, fuzzy
 msgid "Dutch (BE)"
-msgstr "_Belanda"
+msgstr "Belanda (BE)"
 
 #. NOTE: Ante Meridian (i.e. like 10:00 AM)
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:335
@@ -38752,14 +38733,12 @@ msgid "&Select All"
 msgstr "Pilih &Semua"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:346
-#, fuzzy
 msgid "Copy &Link Location"
-msgstr "_Salin Lokasi Tautan"
+msgstr "Salin &Lokasi Tautan"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:351
-#, fuzzy
 msgid "Paste and Match Style"
-msgstr "_Cocokkan"
+msgstr "Tempel dan Cocokkan Gaya"
 
 #: /home/kovid/work/calibre/src/calibre/utils/localization.py:352
 msgid "Directions"
@@ -38782,34 +38761,31 @@ msgid "Close Tab"
 msgstr "Tutup Tab"
 
 #: /home/kovid/work/calibre/src/calibre/utils/search_query_parser.py:209
-#, fuzzy
 msgid "Extra characters at end of search"
-msgstr "Aktifkan karakter tipografi ekstra"
+msgstr "Karakter ekstra di akhir pencarian"
 
 #: /home/kovid/work/calibre/src/calibre/utils/search_query_parser.py:242
-#, fuzzy
 msgid "missing )"
-msgstr "kurang \""
+msgstr "kurang )"
 
 #: /home/kovid/work/calibre/src/calibre/utils/search_query_parser.py:358
-#, fuzzy, python-format
+#, python-format
 msgid "Failed to parse query, recursion limit reached: %s"
-msgstr "Gagal untuk memilah permintaan, batas rekursi tercapai: %s"
+msgstr "Gagal untuk mengurai query, batas rekursi tercapai: %s"
 
 #: /home/kovid/work/calibre/src/calibre/utils/search_query_parser.py:404
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Recursive saved search: {0}"
-msgstr "Di mana melaksanakan pencarian rekursif"
+msgstr "Pencarian rekursif tersimpan: {0}"
 
 #: /home/kovid/work/calibre/src/calibre/utils/search_query_parser.py:409
-#, fuzzy
 msgid "Unknown saved search: {}"
-msgstr "Tinggi tersimpan jendela Pencarian"
+msgstr "Pencarian tak dikenal tersimpan: {}"
 
 #: /home/kovid/work/calibre/src/calibre/utils/search_query_parser.py:416
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Unknown error in saved search: {0}"
-msgstr "Kesalahan obrolan grup tidak dikenal terjadi: {0}"
+msgstr "Kesalahan tidak dikenal dalam pencarian tersimpan: {0}"
 
 #: /home/kovid/work/calibre/src/calibre/utils/smtp.py:200
 #, fuzzy
@@ -38846,14 +38822,12 @@ msgid "Options to compose an email. Ignored if text is not specified"
 msgstr "Pilihan untuk menulis email. Diabaikan jika teks tidak ditentukan"
 
 #: /home/kovid/work/calibre/src/calibre/utils/smtp.py:216
-#, fuzzy
 msgid "File to attach to the email"
-msgstr "Lampirkan Berkas (Ctrl+T)"
+msgstr "Berkas yang akan dilampirkan ke surel"
 
 #: /home/kovid/work/calibre/src/calibre/utils/smtp.py:217
-#, fuzzy
 msgid "Subject of the email"
-msgstr "(tanpa perihal)"
+msgstr "Perihal surel"
 
 #: /home/kovid/work/calibre/src/calibre/utils/smtp.py:220
 #, fuzzy
@@ -38911,14 +38885,12 @@ msgid "Fork and deliver message in background. If you use this option, you shoul
 msgstr "Garpu dan menyampaikan pesan di latar belakang. Jika Anda menggunakan opsi ini, Anda juga harus menggunakan--outbox untuk menangani kegagalan pengiriman."
 
 #: /home/kovid/work/calibre/src/calibre/utils/smtp.py:250
-#, fuzzy
 msgid "Timeout for connection"
 msgstr "Koneksi habis waktu"
 
 #: /home/kovid/work/calibre/src/calibre/utils/smtp.py:336
-#, fuzzy
 msgid "Control email delivery"
-msgstr "Surel ke %s diantrikan untuk pengiriman"
+msgstr "Mengendalikan pengirimal surel"
 
 #: /home/kovid/work/calibre/src/calibre/utils/winreg/default_programs.py:26
 #, fuzzy
@@ -38941,34 +38913,29 @@ msgid "%s Document"
 msgstr "%s dokumen"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/__init__.py:123
-#, fuzzy
 msgid "Unknown section"
-msgstr "#TIDAK DIKENAL!"
+msgstr "Seksi tidak dikenal"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/__init__.py:144
-#, fuzzy
 msgid "Unknown feed"
-msgstr "Asupan:"
+msgstr "Asupan tidak dikenal"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/__init__.py:164 /home/kovid/work/calibre/src/calibre/web/feeds/__init__.py:197 /home/kovid/work/calibre/src/calibre/web/feeds/news.py:1520
-#, fuzzy
 msgid "Untitled article"
-msgstr "Tak ada judul"
+msgstr "Artikel tanpa judul"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:53
-#, fuzzy
 msgid "Unknown News Source"
-msgstr "Berita"
+msgstr "Sumber Berita Tak Dikenal"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:583
-#, fuzzy
 msgid "Article download aborted"
-msgstr "artikel"
+msgstr "Pengunduhan artikel digugurkan"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:803
-#, fuzzy, python-format
+#, python-format
 msgid "Failed to download %s"
-msgstr "Tidak bisa meningkatkan ke %s karena pengunduhan gagal"
+msgstr "Gagal mengunduh %s"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:896
 #, fuzzy, python-format
@@ -38980,14 +38947,12 @@ msgid "Download finished"
 msgstr "Unduhan selesai"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:1025
-#, fuzzy
 msgid "Failed to download the following articles:"
-msgstr "Pengunduhan paket gagal"
+msgstr "Gagal mengunduh artikel-artikel berikut:"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:1031
-#, fuzzy
 msgid "Failed to download parts of the following articles:"
-msgstr "Gagal untuk mengunduh bagian dari artikel berikut ini:"
+msgstr "Gagal mengunduh bagian dari artikel berikut:"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:1033
 msgid " from "
@@ -38998,9 +38963,8 @@ msgid "\tFailed links:"
 msgstr "\tTautan yang gagal:"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:1138
-#, fuzzy
 msgid "Could not fetch article."
-msgstr "Tak bisa mengambil baris selanjutnya"
+msgstr "Tak bisa mengambil artikel."
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:1140
 #, fuzzy
@@ -39040,19 +39004,19 @@ msgstr[0] "Mulai download dalam satu thread..."
 msgstr[1] ""
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:1283
-#, fuzzy, python-format
+#, python-format
 msgid "Feeds downloaded to %s"
-msgstr "Tak Diunduh"
+msgstr "Asupan diunduh ke %s"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:1292
-#, fuzzy, python-format
+#, python-format
 msgid "Could not download cover: %s"
-msgstr "tak bisa mengunduh %s: %s"
+msgstr "Tidak bisa mengunduh sampul: %s"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:1305
-#, fuzzy, python-format
+#, python-format
 msgid "Downloading cover from %s"
-msgstr "Mengunduh Gambar Sampul"
+msgstr "Mengunduh sampul dari %s"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:1357
 #, fuzzy
@@ -39060,14 +39024,13 @@ msgid "Masthead image downloaded"
 msgstr "Tak Diunduh"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:1444
-#, fuzzy
 msgid "Articles in this issue:"
-msgstr "Menampilkan artikel asupan RSS"
+msgstr "Artikel dalam terbitan ini:"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:1592
-#, fuzzy, python-format
+#, python-format
 msgid "Article downloaded: %s"
-msgstr "Tak Diunduh"
+msgstr "Artikel diunduh: %s"
 
 #: /home/kovid/work/calibre/src/calibre/web/feeds/news.py:1602
 #, fuzzy, python-format
